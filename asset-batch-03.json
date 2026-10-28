@@ -1,0 +1,394 @@
+{
+  "batch": 3,
+  "title": "铃不响的林子",
+  "generator": "built-in image_gen",
+  "script_image_processing": false,
+  "grid": {
+    "width": 1254,
+    "height": 1254,
+    "rows": 3,
+    "columns": 3,
+    "cell_size": 418,
+    "order": "row-major"
+  },
+  "assets": [
+    {
+      "id": "combat",
+      "file": "combat-poses-01.png",
+      "cells": [
+        "侧面举叶盾",
+        "正面举叶盾",
+        "背面举叶盾",
+        "弹反前推",
+        "投掷蓄力",
+        "投掷出手",
+        "举壶饮茶",
+        "仰头饮茶",
+        "盘腿休息"
+      ],
+      "validation": {
+        "id": "combat",
+        "file": "combat-poses-01.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGB",
+        "sha256": "c1f1ceccb423e11b97220ea84970577a4b076baf2e1284ae522b0adea7a26021",
+        "original_bytes_unchanged": true,
+        "script_processed": false,
+        "near_black_nonzero_pixels": 283594,
+        "cells": [
+          {
+            "cell": 1,
+            "insets_ltrb": [
+              102,
+              72,
+              54,
+              25
+            ]
+          },
+          {
+            "cell": 2,
+            "insets_ltrb": [
+              125,
+              56,
+              109,
+              28
+            ]
+          },
+          {
+            "cell": 3,
+            "insets_ltrb": [
+              95,
+              61,
+              135,
+              27
+            ]
+          },
+          {
+            "cell": 4,
+            "insets_ltrb": [
+              63,
+              47,
+              19,
+              67
+            ]
+          },
+          {
+            "cell": 5,
+            "insets_ltrb": [
+              105,
+              41,
+              87,
+              67
+            ]
+          },
+          {
+            "cell": 6,
+            "insets_ltrb": [
+              52,
+              53,
+              24,
+              67
+            ]
+          },
+          {
+            "cell": 7,
+            "insets_ltrb": [
+              114,
+              5,
+              87,
+              74
+            ]
+          },
+          {
+            "cell": 8,
+            "insets_ltrb": [
+              80,
+              4,
+              76,
+              76
+            ]
+          },
+          {
+            "cell": 9,
+            "insets_ltrb": [
+              106,
+              54,
+              105,
+              77
+            ]
+          }
+        ],
+        "minimum_cell_inset": 4
+      }
+    },
+    {
+      "id": "items",
+      "file": "items-02.png",
+      "cells": [
+        "三颗苔石弹药",
+        "单颗苔石投射物",
+        "弹反爆闪",
+        "格挡碎叶",
+        "眩晕三星环",
+        "橡叶盾",
+        "空苔茶壶",
+        "打开且空的宝箱",
+        "熄灭灯笼柱"
+      ],
+      "validation": {
+        "id": "items",
+        "file": "items-02.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGB",
+        "sha256": "22165ebc59e1fb8ed025900f5a9f5802dd2b59a5925efeaf35b96993351959a4",
+        "original_bytes_unchanged": true,
+        "script_processed": false,
+        "near_black_nonzero_pixels": 480035,
+        "cells": [
+          {
+            "cell": 1,
+            "insets_ltrb": [
+              103,
+              137,
+              77,
+              81
+            ]
+          },
+          {
+            "cell": 2,
+            "insets_ltrb": [
+              102,
+              180,
+              138,
+              119
+            ]
+          },
+          {
+            "cell": 3,
+            "insets_ltrb": [
+              49,
+              80,
+              72,
+              55
+            ]
+          },
+          {
+            "cell": 4,
+            "insets_ltrb": [
+              101,
+              75,
+              60,
+              110
+            ]
+          },
+          {
+            "cell": 5,
+            "insets_ltrb": [
+              79,
+              97,
+              77,
+              153
+            ]
+          },
+          {
+            "cell": 6,
+            "insets_ltrb": [
+              82,
+              5,
+              81,
+              49
+            ]
+          },
+          {
+            "cell": 7,
+            "insets_ltrb": [
+              85,
+              124,
+              43,
+              52
+            ]
+          },
+          {
+            "cell": 8,
+            "insets_ltrb": [
+              78,
+              65,
+              57,
+              63
+            ]
+          },
+          {
+            "cell": 9,
+            "insets_ltrb": [
+              72,
+              51,
+              118,
+              43
+            ]
+          }
+        ],
+        "minimum_cell_inset": 5
+      }
+    },
+    {
+      "id": "camp",
+      "file": "camp-fen-props-01.png",
+      "cells": [
+        "余烬石圈营火",
+        "眼纹补丁帐篷",
+        "木箱与木桶",
+        "沼泽芦苇",
+        "睡莲雾菇",
+        "陷泥裂钟",
+        "腐烂搁浅木舟",
+        "木板栈道",
+        "路旁小神龛"
+      ],
+      "validation": {
+        "id": "camp",
+        "file": "camp-fen-props-01.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGB",
+        "sha256": "157242a5dea8640159e23f0c07a4dd72affa5965c32ca28e491db509da47f31a",
+        "original_bytes_unchanged": true,
+        "script_processed": false,
+        "near_black_nonzero_pixels": 293790,
+        "cells": [
+          {
+            "cell": 1,
+            "insets_ltrb": [
+              54,
+              148,
+              32,
+              46
+            ]
+          },
+          {
+            "cell": 2,
+            "insets_ltrb": [
+              38,
+              71,
+              38,
+              26
+            ]
+          },
+          {
+            "cell": 3,
+            "insets_ltrb": [
+              53,
+              98,
+              58,
+              42
+            ]
+          },
+          {
+            "cell": 4,
+            "insets_ltrb": [
+              62,
+              21,
+              45,
+              39
+            ]
+          },
+          {
+            "cell": 5,
+            "insets_ltrb": [
+              56,
+              67,
+              55,
+              70
+            ]
+          },
+          {
+            "cell": 6,
+            "insets_ltrb": [
+              31,
+              80,
+              39,
+              55
+            ]
+          },
+          {
+            "cell": 7,
+            "insets_ltrb": [
+              51,
+              61,
+              20,
+              83
+            ]
+          },
+          {
+            "cell": 8,
+            "insets_ltrb": [
+              41,
+              31,
+              31,
+              70
+            ]
+          },
+          {
+            "cell": 9,
+            "insets_ltrb": [
+              120,
+              2,
+              136,
+              52
+            ]
+          }
+        ],
+        "minimum_cell_inset": 2
+      }
+    },
+    {
+      "id": "tiles",
+      "file": "tiles-02.png",
+      "cells": [
+        "左上外角",
+        "上边",
+        "右上外角",
+        "左边",
+        "道路中心",
+        "右边",
+        "左下外角",
+        "下边",
+        "右下外角"
+      ],
+      "validation": {
+        "id": "tiles",
+        "file": "tiles-02.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGB",
+        "sha256": "e92c276bba11f2fd359834cdc98d81b0fa1d6df8ac0a034679dcb33ebcfee6e3",
+        "original_bytes_unchanged": true,
+        "script_processed": false,
+        "full_canvas_ground": true,
+        "boundary_near_black_fraction": {
+          "x418": 0.0,
+          "x836": 0.0,
+          "y418": 0.0,
+          "y836": 0.0
+        },
+        "seamless_game_rendering_verified": false,
+        "imagegen_grid_line_repair": true
+      }
+    }
+  ],
+  "not_verified": [
+    "Actual game fixed-cell slicing",
+    "All autotile combinations and repeat seams",
+    "Animation continuity and timing",
+    "Exact uniform art-pixel scale"
+  ]
+}
