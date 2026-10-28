@@ -1,0 +1,2846 @@
+{
+  "batch": "05",
+  "chapters": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "asset_count": 33,
+  "method": "built-in image_gen",
+  "image_script_postprocessing": false,
+  "assets": [
+    {
+      "file": "npc-bodies-01.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1749837,
+      "mode": "RGB",
+      "sha256": "7dfac2395df1dc60a396b59c0c1efdd70350bf00176edcf7851ee0917c72b936",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 6502,
+        "max_channel": 2,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 160
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            85,
+            55,
+            1,
+            15
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            112,
+            62,
+            117,
+            11
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            55,
+            69,
+            94,
+            10
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            82,
+            27,
+            11,
+            0
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            77,
+            31,
+            74,
+            0
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            38,
+            25,
+            79,
+            40
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            93,
+            0,
+            62,
+            50
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            54,
+            0,
+            56,
+            55
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            35,
+            71,
+            61,
+            49
+          ]
+        }
+      ]
+    },
+    {
+      "file": "player-abilities-01.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1224028,
+      "mode": "RGB",
+      "sha256": "eec59c3e4c1e464cf2dc56fd414eab1a583b87278cbab12400fb7166de6a119a",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 8868,
+        "max_channel": 2,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 18,
+        "x836": 7,
+        "y418": 0,
+        "y836": 19
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            93,
+            108,
+            42,
+            27
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            40,
+            95,
+            39,
+            22
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            53,
+            120,
+            81,
+            33
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            53,
+            76,
+            0,
+            74
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            0,
+            84,
+            0,
+            0
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            0,
+            61,
+            77,
+            66
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            60,
+            63,
+            29,
+            89
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            46,
+            0,
+            47,
+            88
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            95,
+            28,
+            103,
+            91
+          ]
+        }
+      ]
+    },
+    {
+      "file": "items-04.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1141379,
+      "mode": "RGB",
+      "sha256": "c5f30d4d9ee940613dcfd04835622973ea5ce175aa312cd1f2bc44c55d80cba6",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 6174,
+        "max_channel": 1,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 0
+      },
+      "cut_boundary_review_required": false,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            80,
+            131,
+            22,
+            58
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            105,
+            76,
+            82,
+            42
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            110,
+            86,
+            103,
+            42
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            81,
+            41,
+            38,
+            72
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            81,
+            53,
+            66,
+            105
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            41,
+            62,
+            57,
+            81
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            106,
+            2,
+            72,
+            103
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            91,
+            10,
+            77,
+            99
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            81,
+            14,
+            90,
+            104
+          ]
+        }
+      ]
+    },
+    {
+      "file": "effects-02.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1118783,
+      "mode": "RGB",
+      "sha256": "17e19e69e767391c0ce5efdfa1f2eb1a0fa76b122f73600590d126481f3be48e",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 4946,
+        "max_channel": 1,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 0
+      },
+      "cut_boundary_review_required": false,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            61,
+            123,
+            30,
+            44
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            40,
+            145,
+            33,
+            49
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            56,
+            121,
+            69,
+            44
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            69,
+            49,
+            25,
+            73
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            47,
+            70,
+            46,
+            97
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            38,
+            43,
+            52,
+            68
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            67,
+            2,
+            38,
+            90
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            48,
+            32,
+            33,
+            123
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            64,
+            24,
+            69,
+            99
+          ]
+        }
+      ]
+    },
+    {
+      "file": "boss-kite-01.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1617636,
+      "mode": "RGB",
+      "sha256": "0c58d8abb30dadf1b1cb3fcc340b362a45079d80b74677657114951ef8d73f09",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 7048,
+        "max_channel": 2,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 11,
+        "x836": 0,
+        "y418": 15,
+        "y836": 0
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            22,
+            68,
+            0,
+            14
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            0,
+            55,
+            103,
+            26
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            25,
+            50,
+            50,
+            0
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            29,
+            47,
+            12,
+            30
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            21,
+            33,
+            24,
+            28
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            9,
+            0,
+            28,
+            21
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            35,
+            35,
+            35,
+            48
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            10,
+            106,
+            15,
+            49
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            17,
+            158,
+            27,
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "file": "kite-creatures-01.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1547883,
+      "mode": "RGB",
+      "sha256": "7035aa1963e0daf12fd221ff19a7a1d2e742222b93f13463a33e39411f7cb947",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 6313,
+        "max_channel": 3,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 0,
+        "x836": 175,
+        "y418": 0,
+        "y836": 296
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            63,
+            56,
+            78,
+            23
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            76,
+            37,
+            66,
+            40
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            78,
+            118,
+            60,
+            74
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            77,
+            53,
+            65,
+            0
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            50,
+            10,
+            0,
+            0
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            0,
+            43,
+            11,
+            0
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            58,
+            0,
+            55,
+            64
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            47,
+            0,
+            0,
+            62
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            0,
+            0,
+            14,
+            49
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tiles-04.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 3477715,
+      "mode": "RGB",
+      "sha256": "683f503fda6b3b37e30767b32dc3d1b5566d6a7b89946407dd887845b7918798",
+      "original_bytes_preserved": true,
+      "type": "tiles",
+      "size_accepted": true,
+      "tile_edge_diagnostics": [
+        {
+          "cell": 1,
+          "wrap_horizontal_mae": 20.679,
+          "wrap_vertical_mae": 21.697,
+          "neighbor_horizontal_mae": 10.708,
+          "neighbor_vertical_mae": 9.658
+        },
+        {
+          "cell": 2,
+          "wrap_horizontal_mae": 36.146,
+          "wrap_vertical_mae": 24.481,
+          "neighbor_horizontal_mae": 10.068,
+          "neighbor_vertical_mae": 10.235
+        },
+        {
+          "cell": 3,
+          "wrap_horizontal_mae": 17.551,
+          "wrap_vertical_mae": 26.526,
+          "neighbor_horizontal_mae": 10.566,
+          "neighbor_vertical_mae": 10.787
+        },
+        {
+          "cell": 4,
+          "wrap_horizontal_mae": 26.244,
+          "wrap_vertical_mae": 57.065,
+          "neighbor_horizontal_mae": 7.504,
+          "neighbor_vertical_mae": 7.497
+        },
+        {
+          "cell": 5,
+          "wrap_horizontal_mae": 21.047,
+          "wrap_vertical_mae": 23.459,
+          "neighbor_horizontal_mae": 11.013,
+          "neighbor_vertical_mae": 9.625
+        },
+        {
+          "cell": 6,
+          "wrap_horizontal_mae": 18.659,
+          "wrap_vertical_mae": 41.474,
+          "neighbor_horizontal_mae": 7.791,
+          "neighbor_vertical_mae": 10.659
+        },
+        {
+          "cell": 7,
+          "wrap_horizontal_mae": 20.058,
+          "wrap_vertical_mae": 33.445,
+          "neighbor_horizontal_mae": 9.875,
+          "neighbor_vertical_mae": 9.594
+        },
+        {
+          "cell": 8,
+          "wrap_horizontal_mae": 21.696,
+          "wrap_vertical_mae": 27.285,
+          "neighbor_horizontal_mae": 12.282,
+          "neighbor_vertical_mae": 9.928
+        },
+        {
+          "cell": 9,
+          "wrap_horizontal_mae": 28.715,
+          "wrap_vertical_mae": 23.221,
+          "neighbor_horizontal_mae": 9.794,
+          "neighbor_vertical_mae": 10.326
+        }
+      ],
+      "seamless_repeat_verified": false
+    },
+    {
+      "file": "kite-props-01.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1524043,
+      "mode": "RGB",
+      "sha256": "72a1daa4cbf02bf13b8ff443472ee6bc8d436718f46c4d8c1442a3f4841eefac",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 7471,
+        "max_channel": 2,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 0,
+        "x836": 20,
+        "y418": 0,
+        "y836": 22
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            78,
+            37,
+            22,
+            28
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            57,
+            30,
+            17,
+            20
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            58,
+            29,
+            71,
+            14
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            68,
+            10,
+            32,
+            39
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            39,
+            49,
+            37,
+            0
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            49,
+            98,
+            45,
+            60
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            54,
+            7,
+            37,
+            42
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            15,
+            0,
+            0,
+            49
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            0,
+            7,
+            53,
+            49
+          ]
+        }
+      ]
+    },
+    {
+      "file": "keyart-chapter3.png",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "bytes": 3029685,
+      "mode": "RGB",
+      "sha256": "e2de18bc7df6c0ad3cbfc133a6b2af1ea19e6ee3681b680a44cbae0cdb227ea3",
+      "original_bytes_preserved": true,
+      "type": "keyart",
+      "size_accepted": true
+    },
+    {
+      "file": "boss-mirror-01.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1359905,
+      "mode": "RGB",
+      "sha256": "42a4877db09d1759c63b9eec6a1a7a22d6bbe9cd5723edc5de3de04c84da6c1c",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 10245,
+        "max_channel": 2,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 15,
+        "x836": 11,
+        "y418": 0,
+        "y836": 0
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            86,
+            85,
+            67,
+            20
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            101,
+            106,
+            92,
+            19
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            17,
+            40,
+            162,
+            16
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            46,
+            64,
+            0,
+            67
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            0,
+            146,
+            0,
+            70
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            0,
+            61,
+            91,
+            66
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            56,
+            14,
+            17,
+            118
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            74,
+            3,
+            77,
+            110
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            8,
+            53,
+            73,
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "file": "mirror-creatures-01.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1460798,
+      "mode": "RGB",
+      "sha256": "e2aa29d8c935389ed75b4153d268bb2c6536eda16d211e8259bcb9e2a1f8e4b9",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 6094,
+        "max_channel": 2,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 181
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            138,
+            58,
+            90,
+            25
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            81,
+            66,
+            55,
+            25
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            131,
+            44,
+            134,
+            25
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            112,
+            13,
+            67,
+            52
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            36,
+            29,
+            27,
+            52
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            70,
+            60,
+            58,
+            0
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            55,
+            26,
+            25,
+            92
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            43,
+            51,
+            41,
+            96
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            13,
+            0,
+            17,
+            46
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tiles-05.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 2935169,
+      "mode": "RGB",
+      "sha256": "a9827889e3cb1a43973e060f6a9e2523635a30dd8077640c913ba362ac5ef109",
+      "original_bytes_preserved": true,
+      "type": "tiles",
+      "size_accepted": true,
+      "tile_edge_diagnostics": [
+        {
+          "cell": 1,
+          "wrap_horizontal_mae": 21.219,
+          "wrap_vertical_mae": 23.291,
+          "neighbor_horizontal_mae": 7.876,
+          "neighbor_vertical_mae": 8.224
+        },
+        {
+          "cell": 2,
+          "wrap_horizontal_mae": 25.423,
+          "wrap_vertical_mae": 46.844,
+          "neighbor_horizontal_mae": 7.698,
+          "neighbor_vertical_mae": 8.188
+        },
+        {
+          "cell": 3,
+          "wrap_horizontal_mae": 55.4,
+          "wrap_vertical_mae": 52.593,
+          "neighbor_horizontal_mae": 3.917,
+          "neighbor_vertical_mae": 6.559
+        },
+        {
+          "cell": 4,
+          "wrap_horizontal_mae": 34.56,
+          "wrap_vertical_mae": 20.59,
+          "neighbor_horizontal_mae": 7.557,
+          "neighbor_vertical_mae": 8.694
+        },
+        {
+          "cell": 5,
+          "wrap_horizontal_mae": 30.403,
+          "wrap_vertical_mae": 27.467,
+          "neighbor_horizontal_mae": 9.678,
+          "neighbor_vertical_mae": 9.742
+        },
+        {
+          "cell": 6,
+          "wrap_horizontal_mae": 29.591,
+          "wrap_vertical_mae": 36.463,
+          "neighbor_horizontal_mae": 11.857,
+          "neighbor_vertical_mae": 7.819
+        },
+        {
+          "cell": 7,
+          "wrap_horizontal_mae": 38.121,
+          "wrap_vertical_mae": 30.666,
+          "neighbor_horizontal_mae": 10.345,
+          "neighbor_vertical_mae": 9.826
+        },
+        {
+          "cell": 8,
+          "wrap_horizontal_mae": 29.589,
+          "wrap_vertical_mae": 27.969,
+          "neighbor_horizontal_mae": 9.08,
+          "neighbor_vertical_mae": 8.283
+        },
+        {
+          "cell": 9,
+          "wrap_horizontal_mae": 20.606,
+          "wrap_vertical_mae": 22.791,
+          "neighbor_horizontal_mae": 7.109,
+          "neighbor_vertical_mae": 9.002
+        }
+      ],
+      "seamless_repeat_verified": false
+    },
+    {
+      "file": "mirror-props-01.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1532327,
+      "mode": "RGB",
+      "sha256": "5d1417eb611e497ffed98ee5882abc0c7c1ab9c6fc6a4ee1d3b69d4257e63cf0",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 6693,
+        "max_channel": 1,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 27
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            159,
+            77,
+            94,
+            24
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            128,
+            82,
+            130,
+            25
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            5,
+            146,
+            52,
+            46
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            56,
+            20,
+            21,
+            46
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            37,
+            61,
+            42,
+            0
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            22,
+            29,
+            43,
+            43
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            69,
+            76,
+            25,
+            95
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            39,
+            0,
+            51,
+            84
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            18,
+            26,
+            51,
+            102
+          ]
+        }
+      ],
+      "state_pair": {
+        "same_position_mask_iou": 0.4688,
+        "pixel_identical_mask": false,
+        "note": "Effects/material changes are included; a diagnostic, not proof of body anchor alignment."
+      }
+    },
+    {
+      "file": "keyart-chapter4.png",
+      "actual_size": [
+        1672,
+        940
+      ],
+      "bytes": 2377837,
+      "mode": "RGB",
+      "sha256": "5c9f299208b156832333e3c2af334e6e96e93a09f5cd578657fbcfbca944b595",
+      "original_bytes_preserved": true,
+      "type": "keyart",
+      "size_accepted": true
+    },
+    {
+      "file": "boss-scissor-01.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1480788,
+      "mode": "RGB",
+      "sha256": "51af09a5fe72e12bd0722458dc67c2b617f179b8afe155d0c6b90b460924325c",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 6096,
+        "max_channel": 1,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 62,
+        "x836": 18,
+        "y418": 21,
+        "y836": 0
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            64,
+            81,
+            70,
+            45
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            49,
+            114,
+            82,
+            43
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            11,
+            99,
+            21,
+            44
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            49,
+            44,
+            56,
+            66
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            21,
+            68,
+            0,
+            65
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            0,
+            0,
+            38,
+            35
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            28,
+            14,
+            0,
+            84
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            0,
+            43,
+            0,
+            93
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            0,
+            150,
+            34,
+            85
+          ]
+        }
+      ]
+    },
+    {
+      "file": "town-creatures-01.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1452464,
+      "mode": "RGB",
+      "sha256": "5117bb286dace2fe70802f82abdccb550ea249fa4d24e952e0ab9dd91205e7f9",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 5952,
+        "max_channel": 1,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 0,
+        "x836": 131,
+        "y418": 6,
+        "y836": 222
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            85,
+            62,
+            94,
+            53
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            66,
+            125,
+            60,
+            44
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            35,
+            78,
+            57,
+            38
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            104,
+            5,
+            65,
+            0
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            40,
+            27,
+            22,
+            68
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            88,
+            0,
+            101,
+            0
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            74,
+            0,
+            34,
+            83
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            51,
+            69,
+            0,
+            98
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            0,
+            0,
+            25,
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tiles-06.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 3631806,
+      "mode": "RGB",
+      "sha256": "e6a5b15d41bd7816d679bff153dd7aedabeb61c692c321852418bfe0c25351ee",
+      "original_bytes_preserved": true,
+      "type": "tiles",
+      "size_accepted": true,
+      "tile_edge_diagnostics": [
+        {
+          "cell": 1,
+          "wrap_horizontal_mae": 49.037,
+          "wrap_vertical_mae": 30.85,
+          "neighbor_horizontal_mae": 12.48,
+          "neighbor_vertical_mae": 12.638
+        },
+        {
+          "cell": 2,
+          "wrap_horizontal_mae": 17.952,
+          "wrap_vertical_mae": 22.5,
+          "neighbor_horizontal_mae": 11.382,
+          "neighbor_vertical_mae": 11.247
+        },
+        {
+          "cell": 3,
+          "wrap_horizontal_mae": 46.699,
+          "wrap_vertical_mae": 15.429,
+          "neighbor_horizontal_mae": 11.76,
+          "neighbor_vertical_mae": 7.574
+        },
+        {
+          "cell": 4,
+          "wrap_horizontal_mae": 34.447,
+          "wrap_vertical_mae": 21.967,
+          "neighbor_horizontal_mae": 12.683,
+          "neighbor_vertical_mae": 12.691
+        },
+        {
+          "cell": 5,
+          "wrap_horizontal_mae": 29.278,
+          "wrap_vertical_mae": 29.697,
+          "neighbor_horizontal_mae": 12.118,
+          "neighbor_vertical_mae": 11.807
+        },
+        {
+          "cell": 6,
+          "wrap_horizontal_mae": 34.222,
+          "wrap_vertical_mae": 31.01,
+          "neighbor_horizontal_mae": 12.228,
+          "neighbor_vertical_mae": 11.909
+        },
+        {
+          "cell": 7,
+          "wrap_horizontal_mae": 36.316,
+          "wrap_vertical_mae": 19.392,
+          "neighbor_horizontal_mae": 9.463,
+          "neighbor_vertical_mae": 9.533
+        },
+        {
+          "cell": 8,
+          "wrap_horizontal_mae": 30.931,
+          "wrap_vertical_mae": 27.643,
+          "neighbor_horizontal_mae": 12.404,
+          "neighbor_vertical_mae": 12.263
+        },
+        {
+          "cell": 9,
+          "wrap_horizontal_mae": 30.344,
+          "wrap_vertical_mae": 38.152,
+          "neighbor_horizontal_mae": 13.764,
+          "neighbor_vertical_mae": 14.451
+        }
+      ],
+      "seamless_repeat_verified": false
+    },
+    {
+      "file": "town-props-01.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1595632,
+      "mode": "RGB",
+      "sha256": "9fecc79c8775cb5fe01034b6ce76f41bb963209296be3b774db497e1f8ea95ab",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 6575,
+        "max_channel": 1,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 231
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            108,
+            102,
+            37,
+            29
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            35,
+            55,
+            43,
+            12
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            15,
+            86,
+            66,
+            12
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            64,
+            30,
+            10,
+            0
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            60,
+            39,
+            33,
+            0
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            82,
+            22,
+            68,
+            0
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            99,
+            0,
+            81,
+            74
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            19,
+            0,
+            45,
+            82
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            2,
+            0,
+            43,
+            72
+          ]
+        }
+      ]
+    },
+    {
+      "file": "keyart-chapter5.png",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "bytes": 3370075,
+      "mode": "RGB",
+      "sha256": "e2952e46aade8cb2d749556697958ba0dae99fea3e5d7ee5e536b82aa23a67b3",
+      "original_bytes_preserved": true,
+      "type": "keyart",
+      "size_accepted": true
+    },
+    {
+      "file": "boss-nian-01.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 2452199,
+      "mode": "RGB",
+      "sha256": "67847d6f25b926ec67319bf488ec7bc8ce372091cd6af5217a65c436a45e1681",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 7241,
+        "max_channel": 3,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 20,
+        "x836": 13,
+        "y418": 0,
+        "y836": 129
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            43,
+            45,
+            20,
+            8
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            17,
+            44,
+            19,
+            0
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            36,
+            56,
+            46,
+            13
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            33,
+            28,
+            14,
+            0
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            33,
+            35,
+            36,
+            46
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            15,
+            43,
+            30,
+            27
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            39,
+            0,
+            0,
+            66
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            0,
+            11,
+            0,
+            90
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            0,
+            44,
+            24,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "file": "winter-creatures-01.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1613893,
+      "mode": "RGB",
+      "sha256": "2de6e8e5325518e16408c1bf4ae35bb7b89c15063cce198ce34147ae64b21ce1",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 5735,
+        "max_channel": 2,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 49,
+        "x836": 201,
+        "y418": 7,
+        "y836": 362
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            104,
+            107,
+            81,
+            44
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            14,
+            59,
+            54,
+            30
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            25,
+            98,
+            82,
+            0
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            60,
+            72,
+            35,
+            0
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            38,
+            49,
+            0,
+            0
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            0,
+            0,
+            74,
+            0
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            82,
+            0,
+            0,
+            77
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            0,
+            0,
+            0,
+            55
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            0,
+            0,
+            47,
+            43
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tiles-07.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 3324418,
+      "mode": "RGB",
+      "sha256": "807e37d6629e3345357eeaab171ec96810c239547a57e81177e3a2d180285206",
+      "original_bytes_preserved": true,
+      "type": "tiles",
+      "size_accepted": true,
+      "tile_edge_diagnostics": [
+        {
+          "cell": 1,
+          "wrap_horizontal_mae": 9.949,
+          "wrap_vertical_mae": 22.188,
+          "neighbor_horizontal_mae": 5.109,
+          "neighbor_vertical_mae": 5.078
+        },
+        {
+          "cell": 2,
+          "wrap_horizontal_mae": 14.313,
+          "wrap_vertical_mae": 21.133,
+          "neighbor_horizontal_mae": 9.214,
+          "neighbor_vertical_mae": 8.984
+        },
+        {
+          "cell": 3,
+          "wrap_horizontal_mae": 13.884,
+          "wrap_vertical_mae": 16.348,
+          "neighbor_horizontal_mae": 8.697,
+          "neighbor_vertical_mae": 9.011
+        },
+        {
+          "cell": 4,
+          "wrap_horizontal_mae": 25.443,
+          "wrap_vertical_mae": 32.449,
+          "neighbor_horizontal_mae": 15.709,
+          "neighbor_vertical_mae": 15.08
+        },
+        {
+          "cell": 5,
+          "wrap_horizontal_mae": 28.116,
+          "wrap_vertical_mae": 32.569,
+          "neighbor_horizontal_mae": 12.181,
+          "neighbor_vertical_mae": 9.552
+        },
+        {
+          "cell": 6,
+          "wrap_horizontal_mae": 16.005,
+          "wrap_vertical_mae": 13.791,
+          "neighbor_horizontal_mae": 7.888,
+          "neighbor_vertical_mae": 7.726
+        },
+        {
+          "cell": 7,
+          "wrap_horizontal_mae": 18.53,
+          "wrap_vertical_mae": 16.547,
+          "neighbor_horizontal_mae": 10.637,
+          "neighbor_vertical_mae": 10.765
+        },
+        {
+          "cell": 8,
+          "wrap_horizontal_mae": 39.349,
+          "wrap_vertical_mae": 22.549,
+          "neighbor_horizontal_mae": 12.822,
+          "neighbor_vertical_mae": 11.947
+        },
+        {
+          "cell": 9,
+          "wrap_horizontal_mae": 20.992,
+          "wrap_vertical_mae": 18.877,
+          "neighbor_horizontal_mae": 9.907,
+          "neighbor_vertical_mae": 10.444
+        }
+      ],
+      "seamless_repeat_verified": false
+    },
+    {
+      "file": "winter-props-01.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1670443,
+      "mode": "RGB",
+      "sha256": "bb125de0e68c5ad020468bf52442289bb87e075902a5591fbf9c53000e38bef2",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 5927,
+        "max_channel": 1,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 76
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            80,
+            110,
+            41,
+            45
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            59,
+            43,
+            61,
+            45
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            92,
+            59,
+            105,
+            40
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            51,
+            22,
+            30,
+            50
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            44,
+            76,
+            44,
+            0
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            48,
+            52,
+            71,
+            0
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            51,
+            6,
+            37,
+            61
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            44,
+            0,
+            94,
+            61
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            17,
+            0,
+            45,
+            55
+          ]
+        }
+      ],
+      "state_pair": {
+        "same_position_mask_iou": 0.6385,
+        "pixel_identical_mask": false,
+        "note": "Effects/material changes are included; a diagnostic, not proof of body anchor alignment."
+      }
+    },
+    {
+      "file": "keyart-chapter6.png",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "bytes": 3009671,
+      "mode": "RGB",
+      "sha256": "f486bed4fc7db596d858c0a59904fa522f160c4111abe4780551a167c7e716a3",
+      "original_bytes_preserved": true,
+      "type": "keyart",
+      "size_accepted": true
+    },
+    {
+      "file": "boss-unpicker-01.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1859264,
+      "mode": "RGB",
+      "sha256": "88e885b9f60233d845715992bf84ee41adb1b4c37def55ab4ef7b7e4141dc459",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 7374,
+        "max_channel": 2,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 155
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            87,
+            42,
+            39,
+            35
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            42,
+            70,
+            36,
+            31
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            38,
+            85,
+            33,
+            31
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            74,
+            17,
+            30,
+            0
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            27,
+            58,
+            22,
+            44
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            15,
+            61,
+            30,
+            0
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            72,
+            0,
+            30,
+            81
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            9,
+            45,
+            22,
+            74
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            7,
+            0,
+            23,
+            49
+          ]
+        }
+      ]
+    },
+    {
+      "file": "boss-unpicker-02.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 2093006,
+      "mode": "RGB",
+      "sha256": "6d5456d18bbcfe9d38b056e3a46e1da057460f658108d077bdae8cc558a3cece",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 7356,
+        "max_channel": 3,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 0,
+        "x836": 15,
+        "y418": 58,
+        "y836": 0
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            26,
+            81,
+            10,
+            11
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            39,
+            21,
+            44,
+            9
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            8,
+            151,
+            20,
+            0
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            42,
+            8,
+            22,
+            38
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            12,
+            68,
+            24,
+            42
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            5,
+            0,
+            25,
+            35
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            22,
+            12,
+            0,
+            70
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            27,
+            44,
+            24,
+            49
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            0,
+            113,
+            16,
+            56
+          ]
+        }
+      ]
+    },
+    {
+      "file": "reverse-creatures-01.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1525392,
+      "mode": "RGB",
+      "sha256": "86403aed338dd2a8e1af81fac68013479c0bba2c21b4700c257a52ca3857dff9",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 6294,
+        "max_channel": 1,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 0,
+        "x836": 78,
+        "y418": 0,
+        "y836": 37
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            66,
+            74,
+            4,
+            20
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            61,
+            97,
+            0,
+            32
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            0,
+            52,
+            34,
+            20
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            90,
+            39,
+            39,
+            0
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            62,
+            20,
+            0,
+            43
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            0,
+            52,
+            35,
+            43
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            80,
+            0,
+            63,
+            65
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            48,
+            6,
+            64,
+            65
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            23,
+            23,
+            73,
+            72
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tiles-08.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 3414500,
+      "mode": "RGB",
+      "sha256": "b9f580c7e9b649b50ce043dd961432f090b742d4da6dbf648fbdcaa7151ec53b",
+      "original_bytes_preserved": true,
+      "type": "tiles",
+      "size_accepted": true,
+      "tile_edge_diagnostics": [
+        {
+          "cell": 1,
+          "wrap_horizontal_mae": 31.251,
+          "wrap_vertical_mae": 33.49,
+          "neighbor_horizontal_mae": 12.021,
+          "neighbor_vertical_mae": 12.079
+        },
+        {
+          "cell": 2,
+          "wrap_horizontal_mae": 38.212,
+          "wrap_vertical_mae": 45.5,
+          "neighbor_horizontal_mae": 11.162,
+          "neighbor_vertical_mae": 10.79
+        },
+        {
+          "cell": 3,
+          "wrap_horizontal_mae": 37.607,
+          "wrap_vertical_mae": 30.76,
+          "neighbor_horizontal_mae": 11.011,
+          "neighbor_vertical_mae": 10.974
+        },
+        {
+          "cell": 4,
+          "wrap_horizontal_mae": 27.192,
+          "wrap_vertical_mae": 35.846,
+          "neighbor_horizontal_mae": 11.22,
+          "neighbor_vertical_mae": 10.465
+        },
+        {
+          "cell": 5,
+          "wrap_horizontal_mae": 30.21,
+          "wrap_vertical_mae": 36.186,
+          "neighbor_horizontal_mae": 10.532,
+          "neighbor_vertical_mae": 10.244
+        },
+        {
+          "cell": 6,
+          "wrap_horizontal_mae": 38.605,
+          "wrap_vertical_mae": 33.178,
+          "neighbor_horizontal_mae": 11.524,
+          "neighbor_vertical_mae": 11.25
+        },
+        {
+          "cell": 7,
+          "wrap_horizontal_mae": 14.188,
+          "wrap_vertical_mae": 17.523,
+          "neighbor_horizontal_mae": 4.307,
+          "neighbor_vertical_mae": 4.678
+        },
+        {
+          "cell": 8,
+          "wrap_horizontal_mae": 42.567,
+          "wrap_vertical_mae": 39.458,
+          "neighbor_horizontal_mae": 12.136,
+          "neighbor_vertical_mae": 11.19
+        },
+        {
+          "cell": 9,
+          "wrap_horizontal_mae": 29.164,
+          "wrap_vertical_mae": 27.128,
+          "neighbor_horizontal_mae": 10.513,
+          "neighbor_vertical_mae": 10.855
+        }
+      ],
+      "seamless_repeat_verified": false
+    },
+    {
+      "file": "reverse-props-01.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1881165,
+      "mode": "RGB",
+      "sha256": "e8edc73456d87a583f49c2fbbaaeef8bcae2b7a6d2315758b0e8555d41525863",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 13489,
+        "max_channel": 2,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 271
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            78,
+            42,
+            33,
+            47
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            59,
+            47,
+            68,
+            44
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            24,
+            101,
+            31,
+            52
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            48,
+            4,
+            44,
+            25
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            48,
+            30,
+            48,
+            0
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            15,
+            3,
+            25,
+            0
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            34,
+            63,
+            7,
+            56
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            17,
+            0,
+            28,
+            40
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            1,
+            0,
+            14,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "file": "keyart-chapter7.png",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "bytes": 2823073,
+      "mode": "RGB",
+      "sha256": "c140c4bb1fdc2f7ef7a1b77ee7430a6a5e73b27cfc49231a41cdc074d02dfb48",
+      "original_bytes_preserved": true,
+      "type": "keyart",
+      "size_accepted": true
+    },
+    {
+      "file": "keyart-ending-sew.png",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "bytes": 3168564,
+      "mode": "RGB",
+      "sha256": "bfe4c2fdd7fb852567fdc89d44b3c365d4e023a6d2b703c516c72b70189ada9d",
+      "original_bytes_preserved": true,
+      "type": "keyart",
+      "size_accepted": true
+    },
+    {
+      "file": "keyart-ending-cut.png",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "bytes": 3106028,
+      "mode": "RGB",
+      "sha256": "aeb36e931d404c23e185df8975f08f954e66efe4696af97c873ae6ee7a230531",
+      "original_bytes_preserved": true,
+      "type": "keyart",
+      "size_accepted": true
+    },
+    {
+      "file": "portraits-03.png",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 2394545,
+      "mode": "RGB",
+      "sha256": "b6ba79a550a52ca5177958fdf41f7ab23f47ccdaaaa63af4547ef7eab08ed60f",
+      "original_bytes_preserved": true,
+      "type": "sprite_sheet",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 12454,
+        "max_channel": 3,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 30,
+        "x836": 0,
+        "y418": 0,
+        "y836": 27
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_rgb_threshold_16": [
+        {
+          "cell": 1,
+          "insets_ltrb": [
+            60,
+            45,
+            0,
+            0
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_ltrb": [
+            0,
+            60,
+            39,
+            0
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_ltrb": [
+            8,
+            75,
+            31,
+            0
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_ltrb": [
+            30,
+            24,
+            8,
+            28
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_ltrb": [
+            21,
+            34,
+            22,
+            0
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_ltrb": [
+            12,
+            31,
+            35,
+            28
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_ltrb": [
+            39,
+            0,
+            8,
+            43
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_ltrb": [
+            19,
+            0,
+            31,
+            43
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_ltrb": [
+            17,
+            2,
+            36,
+            43
+          ]
+        }
+      ]
+    }
+  ],
+  "validation_scope": "PNG decode, dimensions, original-byte equality, background sample, cut-line and state silhouette diagnostics; no in-game animation or seamless-tiling certification",
+  "delivery_status": "generated-originals-with-disclosed-deviations",
+  "date": "2026-10-29",
+  "source_file_count": {
+    "heading_says": 32,
+    "actual_distinct_png_names": 33
+  },
+  "generator_revised_files": [
+    "boss-mirror-01.png",
+    "player-abilities-01.png",
+    "keyart-chapter3.png",
+    "keyart-chapter7.png",
+    "keyart-chapter4.png",
+    "keyart-chapter6.png",
+    "reverse-props-01.png",
+    "portraits-03.png",
+    "keyart-ending-sew.png"
+  ],
+  "known_limitations": [
+    "所有 21 张黑底精灵表的外缘 8px 采样均含非纯黑像素；未统一背景。",
+    "19 张精灵表的名义 418/836px 切线上检测到 RGB 最大通道大于 16 的像素；切格前需人工检查，不能全部视为可丢弃噪点。",
+    "Boss 连续姿态、玩家姿态和机关状态未做像素级锚点或体型一致性认证；未做游戏内动画验证。",
+    "6-7 实像素/美术像素未作严格栅格一致性认证，部分纹理更细。",
+    "5 张地面表未验证为严格无缝平铺；边缘误差只是诊断。",
+    "镜湖主视觉实际 1672x940，其余主视觉 1672x941，均未缩放。",
+    "未做脚本裁切、缩放、重排、抠图、调色或纯黑背景校正。"
+  ],
+  "per_file_visual_notes": {
+    "items-04.png": [
+      "第3格手镜略偏椭圆而非严格圆形。"
+    ],
+    "keyart-chapter4.png": [
+      "满月已补上，但位于顶部三分之一右侧；顶部并非完全空净，叠加标题时应避开月亮。"
+    ],
+    "keyart-ending-sew.png": [
+      "重复烛芯童已移除；左侧风筝缩小后仍有部分进入顶部三分之一，标题建议放在上方中央。"
+    ],
+    "keyart-ending-cut.png": [
+      "部分漂浮生物进入顶部三分之一区域，中央星空仍较空。"
+    ]
+  },
+  "distribution": {
+    "repository": "0xuezhang985/folklore-sprite-grids",
+    "visibility_required": "public",
+    "source_prompts_published": false
+  }
+}
