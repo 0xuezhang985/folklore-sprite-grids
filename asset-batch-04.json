@@ -1,0 +1,903 @@
+{
+  "batch": "04",
+  "chapter": "第二章 · 雾菇沼",
+  "delivery": "生成工具原图；含已知规格和内容偏差，不是全部通过生产验收的自动切图包",
+  "method": "built-in image_gen",
+  "postprocessing": "none",
+  "checks": "PNG decode, requested versus actual size, original byte equality, sampled black background, nominal cell-cut pixel counts, lamp silhouette alignment, tile wrap-edge diagnostics",
+  "limitations": [
+    "章节主视觉实际为 1672×941，而非 1920×1080。",
+    "黑底图的背景采样含非零近黑像素，不满足全背景严格 #000000。",
+    "部分内容/粒子位于名义切格线上，需切图时检查；未用脚本重新居中。",
+    "路灯亮/灭造型相近，但不满足严格像素对齐复用；未合成复制灯柱。",
+    "角色动作比例做了目视核对，未验证逐帧相同锚点与严格等比例。",
+    "地块无黑色分隔线，但无缝平铺未通过游戏内或重复拼接的目视验收。",
+    "主视觉远处小怪出现斗笠状轮廓，未完全匹配溺纸灯；主灯以外仍有少量暖色。",
+    "像素颗粒与刺绣纹理未被程序量化保证为每 art pixel 6–7 个真实像素。",
+    "怪物排布修订等待超过四分钟后停止等待，无返回结果；保留首次生成原图。"
+  ],
+  "assets": [
+    {
+      "file": "fen-creatures-01.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "requested_size": [
+        1254,
+        1254
+      ],
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "matches_requested_size": true,
+      "bytes": 1724295,
+      "sha256": "8d820cb59ca8035a9de73e371ca18fb74cfb879c333c9f587ffdf95c6e4d25a1",
+      "generator_original_bytes_preserved": true,
+      "cells_row_major": [
+        "溺纸灯·待机",
+        "溺纸灯·攻击",
+        "泥手",
+        "绳鳗",
+        "菇伞婆·待机",
+        "浮萍蛙",
+        "菇伞婆·攻击",
+        "沼烛鬼",
+        "千灯蜈蚣"
+      ],
+      "background_check": {
+        "sample": "outer_8_pixel_border",
+        "pure_black_pixels": 32901,
+        "total_pixels": 39872,
+        "nonblack_pixels": 6971,
+        "max_channel_in_border": 1,
+        "passes_exact_pure_black_sample": false
+      },
+      "cell_bounds_threshold_max_rgb_gt_16": [
+        {
+          "cell": 1,
+          "insets_left_top_right_bottom": [
+            89,
+            29,
+            79,
+            7
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_left_top_right_bottom": [
+            58,
+            22,
+            16,
+            21
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_left_top_right_bottom": [
+            52,
+            57,
+            70,
+            21
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_left_top_right_bottom": [
+            52,
+            25,
+            32,
+            0
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_left_top_right_bottom": [
+            66,
+            3,
+            71,
+            33
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_left_top_right_bottom": [
+            80,
+            115,
+            87,
+            0
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_left_top_right_bottom": [
+            36,
+            0,
+            0,
+            42
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_left_top_right_bottom": [
+            0,
+            66,
+            0,
+            95
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_left_top_right_bottom": [
+            0,
+            0,
+            27,
+            26
+          ]
+        }
+      ],
+      "bright_pixels_on_nominal_cut_lines": {
+        "x418": 9,
+        "x836": 53,
+        "y418": 0,
+        "y836": 142
+      },
+      "needs_cut_boundary_review": true,
+      "cut_check_note": "Counts include effect particles and neighboring stray pixels; not a semantic segmentation test."
+    },
+    {
+      "file": "boss-ferryman-01.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "requested_size": [
+        1254,
+        1254
+      ],
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "matches_requested_size": true,
+      "bytes": 1413631,
+      "sha256": "0eeb577eea99ae28f686a7855d92bccd164e87d80fe02ca30a5ab9426b5fb9a8",
+      "generator_original_bytes_preserved": true,
+      "cells_row_major": [
+        "待机",
+        "砸击蓄力",
+        "砸击落地",
+        "突刺蓄力",
+        "突刺",
+        "横扫",
+        "吹灭灯笼",
+        "虚弱跪倒",
+        "败北"
+      ],
+      "background_check": {
+        "sample": "outer_8_pixel_border",
+        "pure_black_pixels": 33070,
+        "total_pixels": 39872,
+        "nonblack_pixels": 6802,
+        "max_channel_in_border": 1,
+        "passes_exact_pure_black_sample": false
+      },
+      "cell_bounds_threshold_max_rgb_gt_16": [
+        {
+          "cell": 1,
+          "insets_left_top_right_bottom": [
+            96,
+            49,
+            61,
+            21
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_left_top_right_bottom": [
+            48,
+            18,
+            80,
+            19
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_left_top_right_bottom": [
+            61,
+            95,
+            63,
+            7
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_left_top_right_bottom": [
+            49,
+            55,
+            65,
+            73
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_left_top_right_bottom": [
+            49,
+            61,
+            1,
+            53
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_left_top_right_bottom": [
+            32,
+            57,
+            27,
+            73
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_left_top_right_bottom": [
+            94,
+            2,
+            70,
+            70
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_left_top_right_bottom": [
+            58,
+            6,
+            108,
+            70
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_left_top_right_bottom": [
+            20,
+            60,
+            36,
+            64
+          ]
+        }
+      ],
+      "bright_pixels_on_nominal_cut_lines": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 0
+      },
+      "needs_cut_boundary_review": false,
+      "cut_check_note": "Counts include effect particles and neighboring stray pixels; not a semantic segmentation test."
+    },
+    {
+      "file": "tiles-03.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "requested_size": [
+        1254,
+        1254
+      ],
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "matches_requested_size": true,
+      "bytes": 2745938,
+      "sha256": "1859253c0e7fc7eaf7dccae172dc5b1ba0b88492b299eec1695e0c8350c1d8b2",
+      "generator_original_bytes_preserved": true,
+      "cells_row_major": [
+        "湿黑泥炭",
+        "浅水",
+        "深水",
+        "苔藓泥地",
+        "干泥炭路",
+        "浮萍水面",
+        "泥中踏石",
+        "倒伏芦苇茬",
+        "横向木栈道"
+      ],
+      "wrap_edge_diagnostics": [
+        {
+          "cell": 1,
+          "horizontal_wrap_edge_mae": 13.254,
+          "vertical_wrap_edge_mae": 12.812,
+          "neighbor_horizontal_mae": 5.623,
+          "neighbor_vertical_mae": 5.357
+        },
+        {
+          "cell": 2,
+          "horizontal_wrap_edge_mae": 8.771,
+          "vertical_wrap_edge_mae": 6.663,
+          "neighbor_horizontal_mae": 3.681,
+          "neighbor_vertical_mae": 3.875
+        },
+        {
+          "cell": 3,
+          "horizontal_wrap_edge_mae": 3.88,
+          "vertical_wrap_edge_mae": 4.002,
+          "neighbor_horizontal_mae": 2.389,
+          "neighbor_vertical_mae": 2.519
+        },
+        {
+          "cell": 4,
+          "horizontal_wrap_edge_mae": 20.676,
+          "vertical_wrap_edge_mae": 24.691,
+          "neighbor_horizontal_mae": 8.306,
+          "neighbor_vertical_mae": 7.812
+        },
+        {
+          "cell": 5,
+          "horizontal_wrap_edge_mae": 10.069,
+          "vertical_wrap_edge_mae": 10.425,
+          "neighbor_horizontal_mae": 6.259,
+          "neighbor_vertical_mae": 6.041
+        },
+        {
+          "cell": 6,
+          "horizontal_wrap_edge_mae": 20.826,
+          "vertical_wrap_edge_mae": 21.172,
+          "neighbor_horizontal_mae": 7.786,
+          "neighbor_vertical_mae": 7.64
+        },
+        {
+          "cell": 7,
+          "horizontal_wrap_edge_mae": 20.39,
+          "vertical_wrap_edge_mae": 9.287,
+          "neighbor_horizontal_mae": 5.651,
+          "neighbor_vertical_mae": 5.705
+        },
+        {
+          "cell": 8,
+          "horizontal_wrap_edge_mae": 23.309,
+          "vertical_wrap_edge_mae": 20.442,
+          "neighbor_horizontal_mae": 8.559,
+          "neighbor_vertical_mae": 7.466
+        },
+        {
+          "cell": 9,
+          "horizontal_wrap_edge_mae": 19.764,
+          "vertical_wrap_edge_mae": 21.162,
+          "neighbor_horizontal_mae": 6.015,
+          "neighbor_vertical_mae": 8.717
+        }
+      ],
+      "seamless_repetition_verified": false,
+      "note": "Read-only edge diagnostics do not certify seamless repetition; no in-game or tiled visual QA performed."
+    },
+    {
+      "file": "player-lantern-01.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "requested_size": [
+        1254,
+        1254
+      ],
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "matches_requested_size": true,
+      "bytes": 1160866,
+      "sha256": "c7948bdf07e92d17ae80a68a4000c69767f2bb069343980fd8264369c7e59fa0",
+      "generator_original_bytes_preserved": true,
+      "cells_row_major": [
+        "提灯侧行",
+        "提灯正面行走",
+        "提灯背面行走",
+        "举灯点亮",
+        "破防后仰",
+        "中毒咳嗽",
+        "泥手抓腿",
+        "死亡脱帽",
+        "举铃舌胜利"
+      ],
+      "background_check": {
+        "sample": "outer_8_pixel_border",
+        "pure_black_pixels": 31999,
+        "total_pixels": 39872,
+        "nonblack_pixels": 7873,
+        "max_channel_in_border": 2,
+        "passes_exact_pure_black_sample": false
+      },
+      "cell_bounds_threshold_max_rgb_gt_16": [
+        {
+          "cell": 1,
+          "insets_left_top_right_bottom": [
+            107,
+            80,
+            24,
+            23
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_left_top_right_bottom": [
+            99,
+            73,
+            112,
+            16
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_left_top_right_bottom": [
+            95,
+            66,
+            95,
+            14
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_left_top_right_bottom": [
+            103,
+            23,
+            57,
+            54
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_left_top_right_bottom": [
+            71,
+            63,
+            56,
+            49
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_left_top_right_bottom": [
+            80,
+            61,
+            101,
+            0
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_left_top_right_bottom": [
+            110,
+            0,
+            60,
+            70
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_left_top_right_bottom": [
+            30,
+            113,
+            0,
+            129
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_left_top_right_bottom": [
+            0,
+            0,
+            123,
+            78
+          ]
+        }
+      ],
+      "bright_pixels_on_nominal_cut_lines": {
+        "x418": 0,
+        "x836": 9,
+        "y418": 0,
+        "y836": 41
+      },
+      "needs_cut_boundary_review": true,
+      "cut_check_note": "Counts include effect particles and neighboring stray pixels; not a semantic segmentation test."
+    },
+    {
+      "file": "fen-props-02.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "requested_size": [
+        1254,
+        1254
+      ],
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "matches_requested_size": true,
+      "bytes": 1543397,
+      "sha256": "c67e312584a420737ded3806b0409b155b69a028a91e311f78d34cbe76329741",
+      "generator_original_bytes_preserved": true,
+      "cells_row_major": [
+        "沼泽路灯·熄灭",
+        "沼泽路灯·点亮",
+        "高脚屋",
+        "渡口码头",
+        "挂灯枯树",
+        "垂帽孢子菇",
+        "冒泡泥口",
+        "半沉石灯",
+        "倒置破伞与蛙"
+      ],
+      "background_check": {
+        "sample": "outer_8_pixel_border",
+        "pure_black_pixels": 32529,
+        "total_pixels": 39872,
+        "nonblack_pixels": 7343,
+        "max_channel_in_border": 1,
+        "passes_exact_pure_black_sample": false
+      },
+      "cell_bounds_threshold_max_rgb_gt_16": [
+        {
+          "cell": 1,
+          "insets_left_top_right_bottom": [
+            109,
+            73,
+            59,
+            7
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_left_top_right_bottom": [
+            82,
+            73,
+            85,
+            7
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_left_top_right_bottom": [
+            50,
+            38,
+            61,
+            0
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_left_top_right_bottom": [
+            52,
+            52,
+            20,
+            5
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_left_top_right_bottom": [
+            30,
+            31,
+            30,
+            9
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_left_top_right_bottom": [
+            49,
+            0,
+            52,
+            5
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_left_top_right_bottom": [
+            48,
+            55,
+            13,
+            52
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_left_top_right_bottom": [
+            43,
+            30,
+            49,
+            51
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_left_top_right_bottom": [
+            17,
+            30,
+            37,
+            39
+          ]
+        }
+      ],
+      "bright_pixels_on_nominal_cut_lines": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 10,
+        "y836": 0
+      },
+      "needs_cut_boundary_review": true,
+      "cut_check_note": "Counts include effect particles and neighboring stray pixels; not a semantic segmentation test.",
+      "lamp_pair": {
+        "cell_mask_iou_at_same_coordinates": 0.3837,
+        "exact_pixel_aligned_duplicate": false,
+        "note": "Visually similar lamp posts, but not guaranteed pixel-identical outside the flame; no compositing applied."
+      }
+    },
+    {
+      "file": "items-03.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "requested_size": [
+        1254,
+        1254
+      ],
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "matches_requested_size": true,
+      "bytes": 1071359,
+      "sha256": "af478b88aba75063861ad809bb35321fd52e810faa7e6f645497d4e114289031",
+      "generator_original_bytes_preserved": true,
+      "cells_row_major": [
+        "手提灯",
+        "灯油罐",
+        "中毒图标",
+        "雾丝",
+        "孢子团",
+        "泥浆飞溅",
+        "火焰",
+        "灯笼徽章",
+        "缝布红心"
+      ],
+      "background_check": {
+        "sample": "outer_8_pixel_border",
+        "pure_black_pixels": 33800,
+        "total_pixels": 39872,
+        "nonblack_pixels": 6072,
+        "max_channel_in_border": 1,
+        "passes_exact_pure_black_sample": false
+      },
+      "cell_bounds_threshold_max_rgb_gt_16": [
+        {
+          "cell": 1,
+          "insets_left_top_right_bottom": [
+            92,
+            143,
+            55,
+            25
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_left_top_right_bottom": [
+            106,
+            143,
+            91,
+            20
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_left_top_right_bottom": [
+            116,
+            114,
+            141,
+            25
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_left_top_right_bottom": [
+            92,
+            105,
+            2,
+            67
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_left_top_right_bottom": [
+            81,
+            88,
+            75,
+            63
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_left_top_right_bottom": [
+            31,
+            84,
+            69,
+            49
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_left_top_right_bottom": [
+            154,
+            32,
+            97,
+            124
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_left_top_right_bottom": [
+            69,
+            16,
+            76,
+            124
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_left_top_right_bottom": [
+            72,
+            36,
+            99,
+            102
+          ]
+        }
+      ],
+      "bright_pixels_on_nominal_cut_lines": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 0
+      },
+      "needs_cut_boundary_review": false,
+      "cut_check_note": "Counts include effect particles and neighboring stray pixels; not a semantic segmentation test."
+    },
+    {
+      "file": "portraits-02.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "requested_size": [
+        1254,
+        1254
+      ],
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "matches_requested_size": true,
+      "bytes": 1685254,
+      "sha256": "737d78d6d0445120c19b2c9830d259bd3ff999259d4aa658cc45af82d37abc88",
+      "generator_original_bytes_preserved": true,
+      "cells_row_major": [
+        "货郎",
+        "烛芯童",
+        "摆渡人",
+        "茶婆婆",
+        "修补匠",
+        "信鸽",
+        "镜猫",
+        "老绣娘",
+        "拆线婆"
+      ],
+      "background_check": {
+        "sample": "outer_8_pixel_border",
+        "pure_black_pixels": 34738,
+        "total_pixels": 39872,
+        "nonblack_pixels": 5134,
+        "max_channel_in_border": 2,
+        "passes_exact_pure_black_sample": false
+      },
+      "cell_bounds_threshold_max_rgb_gt_16": [
+        {
+          "cell": 1,
+          "insets_left_top_right_bottom": [
+            79,
+            94,
+            16,
+            43
+          ]
+        },
+        {
+          "cell": 2,
+          "insets_left_top_right_bottom": [
+            91,
+            71,
+            81,
+            39
+          ]
+        },
+        {
+          "cell": 3,
+          "insets_left_top_right_bottom": [
+            45,
+            91,
+            72,
+            40
+          ]
+        },
+        {
+          "cell": 4,
+          "insets_left_top_right_bottom": [
+            73,
+            48,
+            29,
+            83
+          ]
+        },
+        {
+          "cell": 5,
+          "insets_left_top_right_bottom": [
+            55,
+            47,
+            45,
+            0
+          ]
+        },
+        {
+          "cell": 6,
+          "insets_left_top_right_bottom": [
+            38,
+            54,
+            72,
+            83
+          ]
+        },
+        {
+          "cell": 7,
+          "insets_left_top_right_bottom": [
+            75,
+            6,
+            43,
+            106
+          ]
+        },
+        {
+          "cell": 8,
+          "insets_left_top_right_bottom": [
+            48,
+            0,
+            53,
+            106
+          ]
+        },
+        {
+          "cell": 9,
+          "insets_left_top_right_bottom": [
+            49,
+            4,
+            78,
+            106
+          ]
+        }
+      ],
+      "bright_pixels_on_nominal_cut_lines": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 19
+      },
+      "needs_cut_boundary_review": true,
+      "cut_check_note": "Counts include effect particles and neighboring stray pixels; not a semantic segmentation test."
+    },
+    {
+      "file": "keyart-chapter2.png",
+      "format": "PNG",
+      "mode": "RGB",
+      "requested_size": [
+        1920,
+        1080
+      ],
+      "actual_size": [
+        1672,
+        941
+      ],
+      "matches_requested_size": false,
+      "bytes": 2679214,
+      "sha256": "d62b1fff26d56bfdfcb207ff01c72af3c398b755b4c3c22cde82e3b98c436048",
+      "generator_original_bytes_preserved": true,
+      "cells_row_major": [
+        "雾菇沼章节主视觉"
+      ]
+    }
+  ]
+}
