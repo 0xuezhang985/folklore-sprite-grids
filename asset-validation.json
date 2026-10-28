@@ -1,0 +1,852 @@
+[
+  {
+    "id": "A",
+    "file": "tiles-01.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "target_size": [
+      1254,
+      1254
+    ],
+    "size_matches": true,
+    "near_black_nonzero_pixels": 233773,
+    "cells": [
+      {
+        "cell": 1,
+        "insets_ltrb": [
+          56,
+          49,
+          32,
+          38
+        ]
+      },
+      {
+        "cell": 2,
+        "insets_ltrb": [
+          45,
+          49,
+          43,
+          38
+        ]
+      },
+      {
+        "cell": 3,
+        "insets_ltrb": [
+          34,
+          49,
+          52,
+          38
+        ]
+      },
+      {
+        "cell": 4,
+        "insets_ltrb": [
+          56,
+          23,
+          32,
+          0
+        ]
+      },
+      {
+        "cell": 5,
+        "insets_ltrb": [
+          45,
+          23,
+          43,
+          0
+        ]
+      },
+      {
+        "cell": 6,
+        "insets_ltrb": [
+          34,
+          23,
+          52,
+          0
+        ]
+      },
+      {
+        "cell": 7,
+        "insets_ltrb": [
+          56,
+          0,
+          32,
+          96
+        ]
+      },
+      {
+        "cell": 8,
+        "insets_ltrb": [
+          45,
+          0,
+          43,
+          96
+        ]
+      },
+      {
+        "cell": 9,
+        "insets_ltrb": [
+          34,
+          0,
+          53,
+          96
+        ]
+      }
+    ],
+    "minimum_cell_inset": 0
+  },
+  {
+    "id": "B",
+    "file": "trees-01.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "target_size": [
+      1254,
+      1254
+    ],
+    "size_matches": true,
+    "near_black_nonzero_pixels": 281369,
+    "cells": [
+      {
+        "cell": 1,
+        "insets_ltrb": [
+          45,
+          24,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": 2,
+        "insets_ltrb": [
+          0,
+          39,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": 3,
+        "insets_ltrb": [
+          0,
+          47,
+          29,
+          0
+        ]
+      },
+      {
+        "cell": 4,
+        "insets_ltrb": [
+          37,
+          0,
+          10,
+          6
+        ]
+      },
+      {
+        "cell": 5,
+        "insets_ltrb": [
+          26,
+          0,
+          19,
+          36
+        ]
+      },
+      {
+        "cell": 6,
+        "insets_ltrb": [
+          36,
+          0,
+          49,
+          20
+        ]
+      },
+      {
+        "cell": 7,
+        "insets_ltrb": [
+          79,
+          71,
+          62,
+          90
+        ]
+      },
+      {
+        "cell": 8,
+        "insets_ltrb": [
+          26,
+          27,
+          28,
+          51
+        ]
+      },
+      {
+        "cell": 9,
+        "insets_ltrb": [
+          16,
+          82,
+          40,
+          84
+        ]
+      }
+    ],
+    "minimum_cell_inset": 0
+  },
+  {
+    "id": "C",
+    "file": "pickups-01.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "target_size": [
+      1254,
+      1254
+    ],
+    "size_matches": true,
+    "near_black_nonzero_pixels": 264464,
+    "cells": [
+      {
+        "cell": 1,
+        "insets_ltrb": [
+          134,
+          102,
+          104,
+          36
+        ]
+      },
+      {
+        "cell": 2,
+        "insets_ltrb": [
+          133,
+          64,
+          111,
+          28
+        ]
+      },
+      {
+        "cell": 3,
+        "insets_ltrb": [
+          113,
+          114,
+          57,
+          47
+        ]
+      },
+      {
+        "cell": 4,
+        "insets_ltrb": [
+          91,
+          45,
+          51,
+          47
+        ]
+      },
+      {
+        "cell": 5,
+        "insets_ltrb": [
+          77,
+          97,
+          73,
+          82
+        ]
+      },
+      {
+        "cell": 6,
+        "insets_ltrb": [
+          67,
+          97,
+          83,
+          82
+        ]
+      },
+      {
+        "cell": 7,
+        "insets_ltrb": [
+          94,
+          59,
+          56,
+          120
+        ]
+      },
+      {
+        "cell": 8,
+        "insets_ltrb": [
+          91,
+          13,
+          95,
+          100
+        ]
+      },
+      {
+        "cell": 9,
+        "insets_ltrb": [
+          34,
+          42,
+          48,
+          105
+        ]
+      }
+    ],
+    "minimum_cell_inset": 13
+  },
+  {
+    "id": "D",
+    "file": "props-01.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "target_size": [
+      1254,
+      1254
+    ],
+    "size_matches": true,
+    "near_black_nonzero_pixels": 261598,
+    "cells": [
+      {
+        "cell": 1,
+        "insets_ltrb": [
+          92,
+          68,
+          88,
+          21
+        ]
+      },
+      {
+        "cell": 2,
+        "insets_ltrb": [
+          53,
+          76,
+          45,
+          23
+        ]
+      },
+      {
+        "cell": 3,
+        "insets_ltrb": [
+          20,
+          48,
+          34,
+          19
+        ]
+      },
+      {
+        "cell": 4,
+        "insets_ltrb": [
+          39,
+          31,
+          16,
+          37
+        ]
+      },
+      {
+        "cell": 5,
+        "insets_ltrb": [
+          24,
+          70,
+          24,
+          43
+        ]
+      },
+      {
+        "cell": 6,
+        "insets_ltrb": [
+          36,
+          39,
+          41,
+          36
+        ]
+      },
+      {
+        "cell": 7,
+        "insets_ltrb": [
+          49,
+          29,
+          23,
+          65
+        ]
+      },
+      {
+        "cell": 8,
+        "insets_ltrb": [
+          87,
+          14,
+          91,
+          59
+        ]
+      },
+      {
+        "cell": 9,
+        "insets_ltrb": [
+          27,
+          46,
+          36,
+          62
+        ]
+      }
+    ],
+    "minimum_cell_inset": 14
+  },
+  {
+    "id": "E",
+    "file": "effects-01.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "target_size": [
+      1254,
+      1254
+    ],
+    "size_matches": true,
+    "near_black_nonzero_pixels": 291543,
+    "cells": [
+      {
+        "cell": 1,
+        "insets_ltrb": [
+          79,
+          127,
+          26,
+          37
+        ]
+      },
+      {
+        "cell": 2,
+        "insets_ltrb": [
+          77,
+          93,
+          63,
+          33
+        ]
+      },
+      {
+        "cell": 3,
+        "insets_ltrb": [
+          80,
+          126,
+          82,
+          53
+        ]
+      },
+      {
+        "cell": 4,
+        "insets_ltrb": [
+          64,
+          129,
+          6,
+          0
+        ]
+      },
+      {
+        "cell": 5,
+        "insets_ltrb": [
+          93,
+          149,
+          75,
+          155
+        ]
+      },
+      {
+        "cell": 6,
+        "insets_ltrb": [
+          53,
+          106,
+          62,
+          120
+        ]
+      },
+      {
+        "cell": 7,
+        "insets_ltrb": [
+          79,
+          0,
+          35,
+          100
+        ]
+      },
+      {
+        "cell": 8,
+        "insets_ltrb": [
+          42,
+          104,
+          32,
+          147
+        ]
+      },
+      {
+        "cell": 9,
+        "insets_ltrb": [
+          54,
+          12,
+          72,
+          105
+        ]
+      }
+    ],
+    "minimum_cell_inset": 0
+  },
+  {
+    "id": "F",
+    "file": "player-facings-01.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "target_size": [
+      1254,
+      1254
+    ],
+    "size_matches": true,
+    "near_black_nonzero_pixels": 284605,
+    "cells": [
+      {
+        "cell": 1,
+        "insets_ltrb": [
+          132,
+          53,
+          83,
+          47
+        ]
+      },
+      {
+        "cell": 2,
+        "insets_ltrb": [
+          99,
+          49,
+          94,
+          41
+        ]
+      },
+      {
+        "cell": 3,
+        "insets_ltrb": [
+          84,
+          53,
+          112,
+          41
+        ]
+      },
+      {
+        "cell": 4,
+        "insets_ltrb": [
+          109,
+          24,
+          97,
+          68
+        ]
+      },
+      {
+        "cell": 5,
+        "insets_ltrb": [
+          89,
+          26,
+          114,
+          68
+        ]
+      },
+      {
+        "cell": 6,
+        "insets_ltrb": [
+          79,
+          27,
+          112,
+          62
+        ]
+      },
+      {
+        "cell": 7,
+        "insets_ltrb": [
+          85,
+          2,
+          25,
+          94
+        ]
+      },
+      {
+        "cell": 8,
+        "insets_ltrb": [
+          82,
+          10,
+          37,
+          98
+        ]
+      },
+      {
+        "cell": 9,
+        "insets_ltrb": [
+          17,
+          110,
+          55,
+          99
+        ]
+      }
+    ],
+    "minimum_cell_inset": 2
+  },
+  {
+    "id": "G",
+    "file": "portraits-01.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "target_size": [
+      1254,
+      1254
+    ],
+    "size_matches": true,
+    "near_black_nonzero_pixels": 311120,
+    "cells": [
+      {
+        "cell": 1,
+        "insets_ltrb": [
+          60,
+          48,
+          0,
+          9
+        ]
+      },
+      {
+        "cell": 2,
+        "insets_ltrb": [
+          0,
+          47,
+          66,
+          9
+        ]
+      },
+      {
+        "cell": 3,
+        "insets_ltrb": [
+          21,
+          26,
+          98,
+          0
+        ]
+      },
+      {
+        "cell": 4,
+        "insets_ltrb": [
+          58,
+          20,
+          16,
+          31
+        ]
+      },
+      {
+        "cell": 5,
+        "insets_ltrb": [
+          21,
+          55,
+          9,
+          0
+        ]
+      },
+      {
+        "cell": 6,
+        "insets_ltrb": [
+          3,
+          29,
+          94,
+          25
+        ]
+      },
+      {
+        "cell": 7,
+        "insets_ltrb": [
+          49,
+          9,
+          0,
+          45
+        ]
+      },
+      {
+        "cell": 8,
+        "insets_ltrb": [
+          0,
+          0,
+          66,
+          41
+        ]
+      },
+      {
+        "cell": 9,
+        "insets_ltrb": [
+          67,
+          12,
+          71,
+          32
+        ]
+      }
+    ],
+    "minimum_cell_inset": 0
+  },
+  {
+    "id": "H",
+    "file": "sprite-grid-04.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "target_size": [
+      1254,
+      1254
+    ],
+    "size_matches": true,
+    "near_black_nonzero_pixels": 313367,
+    "cells": [
+      {
+        "cell": 1,
+        "insets_ltrb": [
+          63,
+          55,
+          27,
+          31
+        ]
+      },
+      {
+        "cell": 2,
+        "insets_ltrb": [
+          41,
+          76,
+          24,
+          33
+        ]
+      },
+      {
+        "cell": 3,
+        "insets_ltrb": [
+          53,
+          77,
+          38,
+          44
+        ]
+      },
+      {
+        "cell": 4,
+        "insets_ltrb": [
+          35,
+          7,
+          22,
+          0
+        ]
+      },
+      {
+        "cell": 5,
+        "insets_ltrb": [
+          52,
+          22,
+          21,
+          47
+        ]
+      },
+      {
+        "cell": 6,
+        "insets_ltrb": [
+          48,
+          7,
+          62,
+          0
+        ]
+      },
+      {
+        "cell": 7,
+        "insets_ltrb": [
+          52,
+          0,
+          28,
+          61
+        ]
+      },
+      {
+        "cell": 8,
+        "insets_ltrb": [
+          29,
+          23,
+          2,
+          71
+        ]
+      },
+      {
+        "cell": 9,
+        "insets_ltrb": [
+          40,
+          0,
+          47,
+          61
+        ]
+      }
+    ],
+    "minimum_cell_inset": 0
+  },
+  {
+    "id": "TITLE",
+    "file": "keyart-title.png",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "target_size": [
+      1920,
+      1080
+    ],
+    "size_matches": false,
+    "near_black_nonzero_pixels": 232205
+  },
+  {
+    "id": "END",
+    "file": "keyart-ending.png",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "target_size": [
+      1920,
+      1080
+    ],
+    "size_matches": false,
+    "near_black_nonzero_pixels": 120121
+  },
+  {
+    "id": "UI",
+    "file": "ui-dialogue-border.png",
+    "size": [
+      2172,
+      724
+    ],
+    "mode": "RGBA",
+    "target_size": null,
+    "size_matches": true,
+    "near_black_nonzero_pixels": 30528,
+    "transparent_pixels": 1233134,
+    "center_alpha": 0
+  },
+  {
+    "id": "BOSS",
+    "file": "ui-boss-nameplate.png",
+    "size": [
+      2172,
+      724
+    ],
+    "mode": "RGBA",
+    "target_size": null,
+    "size_matches": true,
+    "near_black_nonzero_pixels": 29099,
+    "transparent_pixels": 922037,
+    "center_alpha": 253
+  }
+]

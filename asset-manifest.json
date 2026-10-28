@@ -1,0 +1,301 @@
+{
+  "schema": 1,
+  "title": "铃不响的林子",
+  "repo": "0xuezhang985/folklore-sprite-grids",
+  "generator": "built-in image_gen",
+  "status": "originals; no image postprocessing, per explicit user choice",
+  "grid": {
+    "width": 1254,
+    "height": 1254,
+    "rows": 3,
+    "columns": 3,
+    "cell_width": 418,
+    "cell_height": 418,
+    "order": "row-major",
+    "background": "#000000",
+    "layout_verified": false,
+    "pure_black_background_verified": false
+  },
+  "assets": [
+    {
+      "id": "A",
+      "file": "tiles-01.png",
+      "target_size": [
+        1254,
+        1254
+      ],
+      "transparent": false,
+      "cells": [
+        "Forest-floor earth",
+        "Moss patch",
+        "Dirt path",
+        "Path meets grass",
+        "Shallow water",
+        "Muddy shoreline",
+        "Fallen-leaf ground",
+        "Root-tangled ground",
+        "Boss-pit black mud"
+      ],
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "sha256": "da8e6d03b694ef2832dc9011b1205fa839dc88204aa1cbabc8a675e3c269c9ca",
+      "postprocessed": false
+    },
+    {
+      "id": "B",
+      "file": "trees-01.png",
+      "target_size": [
+        1254,
+        1254
+      ],
+      "transparent": false,
+      "cells": [
+        "Twisted oak",
+        "Crooked willow",
+        "Gnarled tree",
+        "Forest-wall canopy",
+        "Large stump",
+        "Mossy boulder",
+        "Red-cap mushrooms",
+        "Fern clump",
+        "Fallen log"
+      ],
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "sha256": "4c802a62e23d61bc99eeba1326423e5e88b16eeb7198b033ad710afe52c25cf8",
+      "postprocessed": false
+    },
+    {
+      "id": "C",
+      "file": "pickups-01.png",
+      "target_size": [
+        1254,
+        1254
+      ],
+      "transparent": false,
+      "cells": [
+        "Glow-seed",
+        "Bell clapper",
+        "Healing berry",
+        "Ancient Oak Heart",
+        "Life heart full",
+        "Life heart half",
+        "Life heart empty",
+        "Empty seed slot",
+        "Moss-tea teapot"
+      ],
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "sha256": "43215f13746b6eb1e9f8fc877ea4428dd44688985a8c3216d45877c5990b106e",
+      "postprocessed": false
+    },
+    {
+      "id": "D",
+      "file": "props-01.png",
+      "target_size": [
+        1254,
+        1254
+      ],
+      "transparent": false,
+      "cells": [
+        "Lantern post",
+        "Empty bell rack",
+        "Root gate closed / three sockets",
+        "Root gate half retracted",
+        "Thorn wall",
+        "Mushroom hut",
+        "Tree-hollow hut",
+        "Wooden signpost",
+        "Candle altar"
+      ],
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "sha256": "b41e5ed252202939c35518fc99cead7bcfbf66dff6578befc3bafc2b8cd9bc31",
+      "postprocessed": false
+    },
+    {
+      "id": "E",
+      "file": "effects-01.png",
+      "target_size": [
+        1254,
+        1254
+      ],
+      "transparent": false,
+      "cells": [
+        "Leaf-blade slash",
+        "Hit spark",
+        "Spore ball",
+        "Thorn spine",
+        "Tooth",
+        "Moss rock",
+        "Root spike",
+        "Dust",
+        "Death puff"
+      ],
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "sha256": "7d1eb71fdf2de316ec539580ed146173cd27a0e5c1641a794305ca9944086d91",
+      "postprocessed": false
+    },
+    {
+      "id": "F",
+      "file": "player-facings-01.png",
+      "target_size": [
+        1254,
+        1254
+      ],
+      "transparent": false,
+      "cells": [
+        "Front stand",
+        "Front step left",
+        "Front step right",
+        "Back stand",
+        "Back step left",
+        "Back step right",
+        "Front swing",
+        "Back swing",
+        "Knocked down"
+      ],
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "sha256": "c3402f79c3b3a86ad599f94f16184cd7ff54329a1a0f34c9904ce1338d2670ee",
+      "postprocessed": false
+    },
+    {
+      "id": "G",
+      "file": "portraits-01.png",
+      "target_size": [
+        1254,
+        1254
+      ],
+      "transparent": false,
+      "cells": [
+        "菌喙医生",
+        "铃铛先生",
+        "烛泪婆婆",
+        "钥匙精",
+        "螺壳隐士",
+        "弦月人",
+        "瓷壶兽",
+        "蕨舞者",
+        "橡果童"
+      ],
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "sha256": "15fea28999738893ebea54f49ce44f6333ff2dd1700d8d58bc0fa82fbf61c450",
+      "postprocessed": false
+    },
+    {
+      "id": "H",
+      "file": "sprite-grid-04.png",
+      "target_size": [
+        1254,
+        1254
+      ],
+      "transparent": false,
+      "cells": [
+        "Lantern moth",
+        "Root snake",
+        "Stone-tablet turtle",
+        "Nest-bird hat",
+        "Grass-blade knight",
+        "Mirror-pond ghost",
+        "Seed-pod mother",
+        "Rotten-wood bear",
+        "Mushroom-cap jellyfish"
+      ],
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "sha256": "9d1d063cd14b5e969501af25bd0f63f08f8c74f103940ea78208b912011204b5",
+      "postprocessed": false
+    },
+    {
+      "id": "TITLE",
+      "file": "keyart-title.png",
+      "target_size": [
+        1920,
+        1080
+      ],
+      "transparent": false,
+      "cells": null,
+      "actual_size": [
+        1672,
+        941
+      ],
+      "sha256": "6833b5493d6391b6cb27e17431865bc52f9747d4e41d4f829a0ba3e265468930",
+      "postprocessed": false
+    },
+    {
+      "id": "END",
+      "file": "keyart-ending.png",
+      "target_size": [
+        1920,
+        1080
+      ],
+      "transparent": false,
+      "cells": null,
+      "actual_size": [
+        1672,
+        941
+      ],
+      "sha256": "c82091b3bd8870869cfe42f74c55feb133e8a0b7d2621a2d33a575b9667cdd5d",
+      "postprocessed": false
+    },
+    {
+      "id": "UI",
+      "file": "ui-dialogue-border.png",
+      "target_size": null,
+      "transparent": true,
+      "cells": null,
+      "actual_size": [
+        2172,
+        724
+      ],
+      "sha256": "56dcc717a1a819f9c7d46c20115ceac3ad6804711cf25d2661ec48109bc241a8",
+      "postprocessed": false
+    },
+    {
+      "id": "BOSS",
+      "file": "ui-boss-nameplate.png",
+      "target_size": null,
+      "transparent": true,
+      "cells": null,
+      "actual_size": [
+        2172,
+        724
+      ],
+      "sha256": "0defc88b6c47e057bac44fecf515d12295763ce906160b875f994dde0cde9d11",
+      "postprocessed": false
+    }
+  ],
+  "not_verified": [
+    "Ground tiles seamless repetition in the actual game renderer",
+    "Animation timing and front/back walk continuity in the actual game",
+    "Nine-slice resizing in the actual game",
+    "Exact art-pixel scale across every image"
+  ],
+  "postprocessed": false,
+  "known_deviations": [
+    "Near-black pixels remain in sheet backgrounds; not strictly #000000.",
+    "A/B/E/G/H have non-black pixels at nominal cell borders; fixed 418px cuts can mix or clip content.",
+    "F has a minimum detected cell inset of only 2px.",
+    "Title and ending key art are 1672x941, not 1920x1080.",
+    "Repeat seams, animation continuity, 9-slice rendering and exact art-pixel scale are not game-tested."
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "generator": "built-in image_gen",
+  "shared_spec": "Pixel-art game sprite sheet, EXACTLY 1254 x 1254 pixels, a precise 3 x 3 grid of nine equal 418 x 418 cells. One complete asset centered in each cell; leave at least 35 pixels of empty margin inside every cell. Pure opaque solid black #000000 background everywhere outside assets, no gradients, no ground shadows, no glow halos. Coarse handmade embroidered / cross-stitch pixel clusters, one art pixel approximately 6-7 image pixels, consistent across the sheet. Muted moss green, earth brown, bone white, rust red, dark folklore forest-spirit style matching the supplied reference. No text, borders, labels or watermarks.",
+  "assets": [
+    {
+      "id": "A",
+      "filename": "tiles-01.png",
+      "prompt": "Pixel-art game sprite sheet, EXACTLY 1254 x 1254 pixels, a precise 3 x 3 grid of nine equal 418 x 418 cells. One complete asset centered in each cell; leave at least 35 pixels of empty margin inside every cell. Pure opaque solid black #000000 background everywhere outside assets, no gradients, no ground shadows, no glow halos. Coarse handmade embroidered / cross-stitch pixel clusters, one art pixel approximately 6-7 image pixels, consistent across the sheet. Muted moss green, earth brown, bone white, rust red, dark folklore forest-spirit style matching the supplied reference. No text, borders, labels or watermarks. SHEET A: nine GROUND TEXTURES. Strictly overhead flat top-down view, NOT perspective blocks or floating islands. Each cell contains exactly ONE axis-aligned flat square texture tile, 336 x 336 pixels, centered with 41-pixel black margins on all four sides. Sharp straight square boundaries, no bevels or frames. The texture must fill its square edge-to-edge. Make opposing edges seamless/repeat-compatible when each square is cropped, with no lighting falloff or vignette. Row-major order: 1) dark forest-floor earth, restrained scattered soil grain; 2) dense moss patch, varied muted green clumps; 3) trodden brown dirt-path surface; 4) path-to-grass transition, brown soil on the left blending into green moss-grass on the right, vertically repeatable; 5) shallow woodland water, desaturated dark teal with sparse blocky pale ripples, no reflections of objects; 6) muddy shoreline, brown mud meeting dark teal water, vertically repeatable; 7) ground blanketed with rusty brown and dull ochre fallen leaves; 8) brown earth tangled with thick coarse winding roots; 9) boss-pit near-black mud, visibly dark brown-purple soil clots distinguishable from the pure black exterior. Keep textures simple, coarse and stitch-like, not photorealistic. Exactly nine separated square tiles, absolutely no scene, no props, no trees, no isometric thickness.",
+      "transparent": false,
+      "target_size": [
+        1254,
+        1254
+      ],
+      "references": [
+        "exec-7b7949b9-3701-48ac-aec0-8504fa7f8dd6.png"
+      ]
+    },
+    {
+      "id": "B",
+      "filename": "trees-01.png",
+      "prompt": "Pixel-art game sprite sheet, EXACTLY 1254 x 1254 pixels, a precise 3 x 3 grid of nine equal 418 x 418 cells. One complete asset centered in each cell; leave at least 35 pixels of empty margin inside every cell. Pure opaque solid black #000000 background everywhere outside assets, no gradients, no ground shadows, no glow halos. Coarse handmade embroidered / cross-stitch pixel clusters, one art pixel approximately 6-7 image pixels, consistent across the sheet. Muted moss green, earth brown, bone white, rust red, dark folklore forest-spirit style matching the supplied reference. No text, borders, labels or watermarks. SHEET B, trees and forest edge. Props in top-down three-quarter game view. Row-major order: 1) standalone twisted oak, broad asymmetric dark moss-green canopy, hooked brown trunk and exposed roots; 2) standalone narrow crooked willow, drooping olive foliage, forked trunk and exposed roots; 3) standalone squat gnarled forest tree, rounded rusty-olive canopy, wide hollow trunk and twisted roots; 4) a dense forest-wall canopy chunk, compact roughly square interlocking dark green foliage with repeat-compatible edges, no trunk, not a whole tree; 5) large cut tree stump with broad visible annual rings and two roots; 6) irregular mossy boulder; 7) cluster of three red-cap mushrooms with bone-white stalks; 8) spreading fern clump, coarse curling muted green fronds; 9) fallen rotting log with a hollow end and small moss patches. All nine occupy at most 330 x 330 pixels within their individual 418-pixel cells; complete crowns and roots fully inside the cell, no clipping, generous black gutters. One asset per cell, no scenic ground patches or extra objects. Keep all surfaces chunky and embroidered, approximately 6-7 pixels per art pixel, not smooth painting.",
+      "transparent": false,
+      "target_size": [
+        1254,
+        1254
+      ],
+      "references": [
+        "exec-7b7949b9-3701-48ac-aec0-8504fa7f8dd6.png"
+      ]
+    },
+    {
+      "id": "C",
+      "filename": "pickups-01.png",
+      "prompt": "Pixel-art game sprite sheet, EXACTLY 1254 x 1254 pixels, a precise 3 x 3 grid of nine equal 418 x 418 cells. One complete asset centered in each cell; leave at least 35 pixels of empty margin inside every cell. Pure opaque solid black #000000 background everywhere outside assets, no gradients, no ground shadows, no glow halos. Coarse handmade embroidered / cross-stitch pixel clusters, one art pixel approximately 6-7 image pixels, consistent across the sheet. Muted moss green, earth brown, bone white, rust red, dark folklore forest-spirit style matching the supplied reference. No text, borders, labels or watermarks. SHEET C: nine pickups and HUD icons, simple readable silhouettes, each small asset contained inside the central 270 x 270 pixels of its 418-pixel cell, VERY GENEROUS BLACK SPACING. Row-major: 1) glow-seed, a single pale moss-green seed with an ivory-green center and a tiny dark seed seam, brightness strictly INSIDE its silhouette, absolutely NO exterior glow or halo; 2) an old bronze bell clapper, a short crooked metal stem with a rounded weighted bottom and a small attachment loop at the top, NOT a whole bell; 3) one plump rust-red healing berry with two dull green leaves; 4) Ancient Oak Heart, a heart-shaped knotted oak-wood relic with visible coarse grain, two small green oak leaves and a dark green central cleft, NOT an ordinary red health heart; 5) FULL life heart icon, a chunky bone-thread outline with the complete heart interior filled muted rusty red; 6) HALF life heart, EXACTLY the same outline and size as item 5, left half filled the SAME rusty red and right half empty pure black; 7) EMPTY life heart, EXACTLY the same outline and size as items 5-6, entire interior pure black, bone-gray stitched outline only; 8) empty seed inventory slot, a thick simple oval moss-and-brown embroidered rim with pure black empty center, no seed inside; 9) a small moss-green ceramic tea pot with a crooked spout, loop handle, brown lid and one tiny leaf ornament, top-down three-quarter icon view. Keep hearts 5/6/7 mutually aligned and identical silhouette, only fill changes. Bold coarse pixel clusters, very few colors, embroidered texture not smooth shading. No added objects or effects.",
+      "transparent": false,
+      "target_size": [
+        1254,
+        1254
+      ],
+      "references": [
+        "exec-7b7949b9-3701-48ac-aec0-8504fa7f8dd6.png"
+      ]
+    },
+    {
+      "id": "D",
+      "filename": "props-01.png",
+      "prompt": "Pixel-art game sprite sheet, EXACTLY 1254 x 1254 pixels, a precise 3 x 3 grid of nine equal 418 x 418 cells. One complete asset centered in each cell; leave at least 35 pixels of empty margin inside every cell. Pure opaque solid black #000000 background everywhere outside assets, no gradients, no ground shadows, no glow halos. Coarse handmade embroidered / cross-stitch pixel clusters, one art pixel approximately 6-7 image pixels, consistent across the sheet. Muted moss green, earth brown, bone white, rust red, dark folklore forest-spirit style matching the supplied reference. No text, borders, labels or watermarks. SHEET D: village and story props, top-down three-quarter view, modest-sized objects within the central 300 x 300 pixels of every cell; wide completely black gaps, NO touching cell boundaries. Reference 2 gives the building shapes. Row-major: 1) one hanging old lantern on a crooked wooden post, solid dull ochre light inside only, no outside glow; 2) Silent Bell Village's EMPTY wooden bell rack, two heavy crooked uprights and a crossbeam with an empty hanging hook, clearly NO BELL; 3) a CLOSED root gate, an arched root frame filled with interlocking thick roots, at its center one wooden locking plate with EXACTLY THREE empty dark circular sockets in a horizontal row; 4) the SAME root gate HALF RETRACTED, roots drawn back to either side to expose the central opening, identical outer frame, same three-socket plate attached to the left root cluster; 5) a dense horizontal thorn wall sealing a boss arena, tightly interwoven brown roots with large rusty-red thorns, no opening; 6) a tiny red-cap mushroom hut with a pale crooked stalk wall and dark wooden doorway; 7) a small hollow-tree hut with a mossy overhanging rim and a tiny bark door, not a tall tower; 8) a crooked wooden signpost with two BLANK arrow-shaped boards, absolutely no writing; 9) Candle Grandmother's candle altar, a squat cracked stone slab with several uneven melted bone-white candles and small solid ochre flames, no halo or shadows. Coarse 6-7 px embroidered clusters, no finely painted textures. Exactly nine separate objects, no characters, no decorative scene.",
+      "transparent": false,
+      "target_size": [
+        1254,
+        1254
+      ],
+      "references": [
+        "exec-7b7949b9-3701-48ac-aec0-8504fa7f8dd6.png",
+        "exec-e671f58b-7578-4940-8da3-534cec3a9229.png"
+      ]
+    },
+    {
+      "id": "E",
+      "filename": "effects-01.png",
+      "prompt": "Pixel-art game sprite sheet, EXACTLY 1254 x 1254 pixels, a precise 3 x 3 grid of nine equal 418 x 418 cells. One complete asset centered in each cell; leave at least 35 pixels of empty margin inside every cell. Pure opaque solid black #000000 background everywhere outside assets, no gradients, no ground shadows, no glow halos. Coarse handmade embroidered / cross-stitch pixel clusters, one art pixel approximately 6-7 image pixels, consistent across the sheet. Muted moss green, earth brown, bone white, rust red, dark folklore forest-spirit style matching the supplied reference. No text, borders, labels or watermarks. SHEET E: projectiles and combat effects. EXACTLY ONE effect frame per cell, NOT animation strips. Small centered effects within each cell's inner 280 x 280 pixels, plenty of uninterrupted pure black around each. Row-major: 1) leaf-blade slash, one sweeping crescent arc built from overlapping coarse pale-green and dark-olive leaf shapes, swinging left to right; 2) hit spark, a compact sharp asymmetric ivory and muted ochre starburst, solid pixels, NO halo; 3) spore ball, one round moss-green and dull cream fungal projectile with a few chunky spores immediately beside it; 4) thorn spine projectile, long dark brown thorn with rusty-red tip, pointing RIGHT; 5) tooth projectile, one crooked bone-white tooth with a brown root, pointing RIGHT; 6) moss-covered angular gray rock projectile, a few tiny attached moss blocks, no ground; 7) root spike bursting upward, a single hooked brown root spear with a small cluster of chunky earth fragments attached around its base, no scenic ground disc; 8) kicked-up dust, low horizontally stretched cluster of dry earth-brown blocky puffs, solid coarse pixels rather than transparency fades; 9) death puff, a compact radial burst of olive and rust leaves tangled with ivory thread snippets, all grouped in the cell center. Dynamic silhouettes but no speed lines crossing cells. Flat coarse embroidered 6-7 px clusters, restrained palette, no smooth gradients or bloom, no characters or scenery.",
+      "transparent": false,
+      "target_size": [
+        1254,
+        1254
+      ],
+      "references": [
+        "exec-7b7949b9-3701-48ac-aec0-8504fa7f8dd6.png"
+      ]
+    },
+    {
+      "id": "F",
+      "filename": "player-facings-01.png",
+      "prompt": "Pixel-art game sprite sheet, EXACTLY 1254 x 1254 pixels, a precise 3 x 3 grid of nine equal 418 x 418 cells. One complete asset centered in each cell; leave at least 35 pixels of empty margin inside every cell. Pure opaque solid black #000000 background everywhere outside assets, no gradients, no ground shadows, no glow halos. Coarse handmade embroidered / cross-stitch pixel clusters, one art pixel approximately 6-7 image pixels, consistent across the sheet. Muted moss green, earth brown, bone white, rust red, dark folklore forest-spirit style matching the supplied reference. No text, borders, labels or watermarks. SHEET F: nine animation poses of ONE AND THE SAME Acorn Kid. Identity reference is ONLY the character in the MIDDLE ROW, RIGHT COLUMN of the attached reference sheet: an ochre acorn-shaped head, textured brown acorn-cap hat with a crooked twig stem and one olive leaf, a small dark hollow opening in the face, layered ragged moss-green leaf tunic, thin pale straw-colored twig arms and legs, three twig fingers. Preserve that exact anatomy, colors, cap, leaf and proportions across every pose. Not a human child, no cute big eyes, no extra accessories. Each figure about 260-290 pixels tall, same head size and same ground baseline relative to its cell, enormous pure black space between figures. Full body entirely visible. Row-major animation poses: 1) FRONT facing camera, standing still, both feet grounded; 2) FRONT facing camera, walk step with LEFT leg forward and right leg back, opposite arm swing; 3) FRONT facing camera, walk step with RIGHT leg forward and left leg back, opposite arm swing; 4) BACK view, standing, show back of acorn cap and leaf tunic, absolutely no face on the back; 5) BACK view walk, LEFT leg forward; 6) BACK view walk, RIGHT leg forward; 7) FRONT view attacking, right twig arm extended in a strong sweeping swing across the body, left arm back, planted staggered feet; 8) BACK view attacking, corresponding sweeping right-arm follow-through with turned shoulders, face not visible; 9) knocked-down pose, the same character lying diagonally on its side, cap still on, leaf bent, limbs sprawled. No weapon, no slash effects, no props, no scenic floor, no extra figures. This sheet specifically uses front/back views as listed, not the side views of the reference. Coarse irregular cross-stitch pixels about 6-7 image pixels, preserve strange twig-like body, not polished modern sprite art.",
+      "transparent": false,
+      "target_size": [
+        1254,
+        1254
+      ],
+      "references": [
+        "exec-7b7949b9-3701-48ac-aec0-8504fa7f8dd6.png"
+      ]
+    },
+    {
+      "id": "G",
+      "filename": "portraits-01.png",
+      "prompt": "Pixel-art game sprite sheet, EXACTLY 1254 x 1254 pixels, a precise 3 x 3 grid of nine equal 418 x 418 cells. One complete asset centered in each cell; leave at least 35 pixels of empty margin inside every cell. Pure opaque solid black #000000 background everywhere outside assets, no gradients, no ground shadows, no glow halos. Coarse handmade embroidered / cross-stitch pixel clusters, one art pixel approximately 6-7 image pixels, consistent across the sheet. Muted moss green, earth brown, bone white, rust red, dark folklore forest-spirit style matching the supplied reference. No text, borders, labels or watermarks. SHEET G: nine DIALOGUE BUST PORTRAITS, head and shoulders / upper-body only, each facing RIGHT in side-profile, recognizable identities from the supplied three sheets. Larger expressive silhouettes and slightly richer stitched details than walking sprites, but STILL coarse 6-7 px pixels, no smooth illustration. Portraits centered inside a 300 x 300 inner area per cell, leave generous black spacing and outer margin, no portrait frame. Row-major portraits: 1) Mushroom-Beak Doctor: reference 1 top-middle, yellow-ochre bird-like long curved beak, small black eye, red white-spotted mushrooms sprouting from head, brown bark-cloth shoulders; 2) Mr Bell: reference 2 top-middle, patinated bronze bell-shaped head with dark opening and a hanging clapper, twig neck and brown narrow shoulders, no human face; 3) Candle Grandmother: reference 2 top-right, melted bone-white wax head and drooping shoulders, bent wick with a small ochre flame, black bead eye, ancient gentle posture, no added hair or clothes; 4) Key Spirit: reference 3 top-left, rusty ornate old-key bow for head with eccentric holes, narrow metal neck, bent wiry upper arms, no flesh face; 5) Snail-Shell Hermit: reference 2 top-left, ochre long-nosed soft head with drooping feelers, large mossy spiral shell behind the shoulders; 6) Crescent Person: reference 2 bottom-left, tall narrow dusty-blue crescent face with tiny black eye, long pointed chin, hunched charcoal twig shoulders; 7) Porcelain Pitcher Beast: reference 3 top-middle, cracked ivory ceramic pitcher head/body with faded blue floral markings, long right-facing spout snout and large curling handle behind, moss along the broken rim; 8) Fern Dancer: reference 1 bottom-right, burnt-orange branching fern-frond head and brown upper body, no invented human face; 9) Acorn Kid: reference 1 middle-right, ochre acorn head, brown cap with crooked stem and single olive leaf, tiny dark hollow face opening, layered green leaf tunic shoulders. Preserve each reference identity, not nine newly invented people. No legs or full bodies, no text, no labels, no scene or background glow.",
+      "transparent": false,
+      "target_size": [
+        1254,
+        1254
+      ],
+      "references": [
+        "exec-7b7949b9-3701-48ac-aec0-8504fa7f8dd6.png",
+        "exec-ded82a6a-7ab5-4885-a3f4-d6ffa7af6e63.png",
+        "exec-69bfee3f-46e7-41a4-9143-d6808726dbf2.png"
+      ]
+    },
+    {
+      "id": "H",
+      "filename": "sprite-grid-04.png",
+      "prompt": "Pixel-art game sprite sheet, EXACTLY 1254 x 1254 pixels, a precise 3 x 3 grid of nine equal 418 x 418 cells. One complete asset centered in each cell; leave at least 35 pixels of empty margin inside every cell. Pure opaque solid black #000000 background everywhere outside assets, no gradients, no ground shadows, no glow halos. Coarse handmade embroidered / cross-stitch pixel clusters, one art pixel approximately 6-7 image pixels, consistent across the sheet. Muted moss green, earth brown, bone white, rust red, dark folklore forest-spirit style matching the supplied reference. No text, borders, labels or watermarks. SHEET H: nine entirely NEW woodland folklore creatures, each a single complete body in strict SIDE VIEW FACING RIGHT. Make sprites SMALL within the cells: maximum 290-pixel width and height, wide empty black margins. Distinct body plans, grotesque whimsical handmade woodland spirits, not cute anime animals. Row-major: 1) lantern moth, a crooked dusty-ochre moth with ragged olive wings and a dark cage-like lantern abdomen holding a muted amber core, no external glow; 2) root snake, a long crawling twisted brown root with bark scales, a sharp pointed right-facing head and two tiny twig horns, body coiled enough to fit the cell; 3) stone-tablet turtle, low gray turtle whose shell is a leaning cracked rectangular ancient stone slab with abstract shallow grooves but NO text, moss draped along its edge, stout feet; 4) nest-bird hat spirit, a ragged brown upside-down hat-shaped nest with a tiny long-beaked bird head emerging at its front, two long spindly twig legs and straw tail, one unified creature; 5) grass-blade knight, extremely slim olive-green blade-of-grass humanoid with folded leaf helmet and a long pointed grass-leaf arm like a sword, crooked straw legs, no metal armor; 6) mirror-pond ghost, a narrow upright dull blue-gray watery silhouette, warped oval mirror-like face with one small dark eye slit, trailing flat rippling limbs, no glossy reflections or glow; 7) seed-pod mother, broad hollow dark-ochre pod torso holding three round seeds inside, bowed nurturing shoulders, two long twig arms and two root legs, not pregnant human anatomy; 8) rotten-wood bear, bulky hunched quadruped made of decaying brown logs and exposed pale wood, low right-facing snout, moss patches, four thick broken-branch paws; 9) mushroom-cap jellyfish, broad muted wine-red fungus cap with a few bone-white spots and a dark mouth underneath, uneven ivory mycelium tentacles trailing left as it floats right. All face right, no front-facing figures. Same coarse 6-7 px embroidered clusters and restrained earthy color range as reference, no fine painted texture, no ground, no shadows, no particles crossing cells.",
+      "transparent": false,
+      "target_size": [
+        1254,
+        1254
+      ],
+      "references": [
+        "exec-7b7949b9-3701-48ac-aec0-8504fa7f8dd6.png",
+        "exec-ded82a6a-7ab5-4885-a3f4-d6ffa7af6e63.png"
+      ]
+    },
+    {
+      "id": "TITLE",
+      "filename": "keyart-title.png",
+      "prompt": "Use case: stylized-concept. Create ONE landscape 1920 x 1080 PNG title key-art image for a dark folkloric pixel game, not a grid. Match the references' primitive chunky embroidered / cross-stitch pixel art, about 6-7 image pixels per art pixel, muted moss green, deep earth brown, bone-white flecks, rusty bronze, near-black night. A dense ancient twisted forest at night surrounds a small clearing. In the middle distance stands a crooked timber bell rack holding one LARGE silent weathered bronze bell, perfectly still, its dark hollow opening without a visible clapper. In the lower center foreground stands the small ACORN KID seen entirely FROM BEHIND, looking up at the silent bell. Match reference 1 middle-right character: brown textured acorn-cap head with crooked stem and one olive leaf, layered green leaf tunic, straw-thin twig limbs; show no face from the back. Gnarled trees with irregular dark canopies frame both sides; coarse roots cross the earth, a few subdued fungi near the roots. Eerie quiet, lonely and expectant, not horror gore. The night sky and deepest gaps are pure black, composition remains legible with restrained flat pixel clusters of gray-green moonlight, no smooth gradients or luminous fog. Leave an uncluttered dark area across the upper center suitable for a title overlay later, but DO NOT draw any letters, title, logo or UI. No border, watermark, smooth painting, photorealism, bloom, glossy 3D or modern cute cartoon. Widescreen composition exactly 16:9.",
+      "transparent": false,
+      "target_size": [
+        1920,
+        1080
+      ],
+      "references": [
+        "exec-7b7949b9-3701-48ac-aec0-8504fa7f8dd6.png",
+        "exec-7607d9fa-75d8-46c0-8d90-4e5be4d38617.png"
+      ]
+    },
+    {
+      "id": "END",
+      "filename": "keyart-ending.png",
+      "prompt": "Create ONE 1920 x 1080 landscape ENDING KEY ART image, not a sprite grid. Reference 1 is the established title scene: keep the same crooked forest trees, clearing and rustic central wooden bell rack, now at DAWN. References 2-5 are the cast of woodland spirits: use their recognizable identities in the gathering. Primitive coarse embroidered / cross-stitch PIXEL ART, approximately 6-7 px art pixels, moss-green, earth-brown, bone-white, rusty bronze and restrained pale dawn ochre, no smooth painted realism. The large bronze bell in the center is visibly tilted mid-swing with its clapper angled to strike; its short rope swings too. The Acorn Kid stands below the bell, visible near center, brown acorn cap with a leaf, moss-green leaf tunic, thin straw limbs. ALL the forest sprites have gathered around in loose small groups across the foreground and middle ground, celebrating the return of the bell: include the mushroom-beak doctor, bell-headed gentleman, wax candle grandmother, rusty-key spirit, snail-shell hermit, crescent-faced spirit, porcelain pitcher beast, orange fern dancer, berry sprite, mandrake, white horn spirit, teal imp, stone creature, thistle spirit, thorn hedgehog, leaf mantis, boot spirit, walnut crab, dandelion spirit, sack hopper, stump maw, cattail drifter, winged samara, horseshoe spirit, pinecone crawler, fishbone wight, plus the lantern moth, root snake, tablet turtle, nest-bird, grass knight, pond ghost, seed-pod mother, wooden bear and mushroom jellyfish. Make each small and use overlapping depth sparingly so silhouettes remain readable; diverse creature sizes, no identical human villagers. Warm quiet relief rather than a busy festival. Flat stitched pale-gold dawn sky showing through the upper trees, long readable root silhouettes, no gradient haze, no modern lights. No written title, captions, UI, borders, text, musical-note symbols, watermarks, or glossy effects. Full widescreen 16:9 composition.",
+      "transparent": false,
+      "target_size": [
+        1920,
+        1080
+      ],
+      "references": [
+        "exec-190a9c7b-79d0-417f-b2bd-187763f0632b.png",
+        "exec-7b7949b9-3701-48ac-aec0-8504fa7f8dd6.png",
+        "exec-ded82a6a-7ab5-4885-a3f4-d6ffa7af6e63.png",
+        "exec-69bfee3f-46e7-41a4-9143-d6808726dbf2.png",
+        "exec-69af27e2-c2d7-44cf-adb5-bc97556ca395.png"
+      ]
+    },
+    {
+      "id": "UI",
+      "filename": "ui-dialogue-border.png",
+      "prompt": "Create ONE standalone horizontal 3:1 game DIALOGUE BOX BORDER asset, requested canvas 1536 x 512 PNG with GENUINE TRANSPARENT background AND fully transparent interior. Use the attached reference only for style: chunky pixel-art with coarse embroidered / cross-stitch clusters about 6-7 px, muted earth-brown carved wood, moss-green thread, bone-white stitches and restrained rust-red accents. A clean rectangular carved-wood frame, evenly thick straight horizontal and vertical bars, four compact fixed corner ornaments carved like simple curling oak leaves. Keep every ornament strictly within its own corner region. Straight middle sections of all four sides must be visually repeatable and stretch-friendly for 9-slice UI use; no diagonal decorations crossing into the center, no large central crest, no uneven or sagging edges. Fine inner embroidered edging made of simple regular bone-white and moss-green stitch blocks. A very large EMPTY transparent rectangular center where game text will later go. Outer silhouette and rectangular inner aperture are clean and readable, not a busy illustration. Entire frame within canvas with at least 24 px transparent outer margin. No text, lettering, symbols, dialogue, characters, black fill, drop shadows, gradient, glow, photorealism, baked checkerboard, or watermark. This is one complete usable UI frame, not nine panels and not a scene.",
+      "transparent": true,
+      "target_size": null,
+      "references": [
+        "exec-7b7949b9-3701-48ac-aec0-8504fa7f8dd6.png"
+      ]
+    },
+    {
+      "id": "BOSS",
+      "filename": "ui-boss-nameplate.png",
+      "prompt": "Create ONE standalone wide horizontal 3:1 BOSS NAMEPLATE UI asset for the Stump Maw boss, with genuinely TRANSPARENT exterior background. No text or lettering anywhere: the game will render the boss name itself. Reference identity: attached sprite sheet MIDDLE ROW LEFT creature, the huge hollow charred tree stump with a gaping dark mouth, crooked pale wooden teeth, moss patches and root arms. Pixel-art style, chunky coarse embroidered / cross-stitch clusters around 6-7 pixels, muted charred brown, olive moss, bone ivory and tiny rust-red accents. Design one compact horizontal plaque: at the LEFT END a small integrated carved stump-maw emblem with a recognizable open black mouth and jagged pale teeth; its twisted roots extend into a straight dark wooden nameplate frame across the remaining three quarters. Large uncluttered empty deep charcoal-brown rectangular center for text, no internal decorations obstructing it. On the right end just a small broken-root knot, not a second boss face. Heavy readable silhouette, clean pixel edges, complete plate visible with ample transparent margin all around, no extraneous props. No health bar fill, no letters, numbers, symbols, labels, glow, gradients, 3D, photorealism, ground shadows, black outer background or baked checkerboard.",
+      "transparent": true,
+      "target_size": null,
+      "references": [
+        "exec-69bfee3f-46e7-41a4-9143-d6808726dbf2.png"
+      ]
+    }
+  ]
+}
