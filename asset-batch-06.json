@@ -1,0 +1,1055 @@
+{
+  "batch": "06",
+  "asset_count": 15,
+  "method": "built-in image_gen",
+  "image_script_postprocessing": false,
+  "assets": [
+    {
+      "file": "wick-poses-01.png",
+      "type": "sprite_sheet",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1302018,
+      "sha256": "b39e1906a4fbc99e8908d0e01b45c4b448a754c4628a82b92ded32a2457a3afe",
+      "original_bytes_preserved": true,
+      "mode": "RGB",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 8840,
+        "max_channel": 2,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 0
+      },
+      "cut_boundary_review_required": false,
+      "cell_bounds_threshold_16": [
+        {
+          "cell": 1,
+          "bbox_local_xyxy": [
+            133,
+            60,
+            334,
+            403
+          ],
+          "insets_ltrb": [
+            133,
+            60,
+            83,
+            14
+          ]
+        },
+        {
+          "cell": 2,
+          "bbox_local_xyxy": [
+            101,
+            83,
+            300,
+            403
+          ],
+          "insets_ltrb": [
+            101,
+            83,
+            117,
+            14
+          ]
+        },
+        {
+          "cell": 3,
+          "bbox_local_xyxy": [
+            103,
+            72,
+            305,
+            403
+          ],
+          "insets_ltrb": [
+            103,
+            72,
+            112,
+            14
+          ]
+        },
+        {
+          "cell": 4,
+          "bbox_local_xyxy": [
+            116,
+            3,
+            320,
+            387
+          ],
+          "insets_ltrb": [
+            116,
+            3,
+            97,
+            30
+          ]
+        },
+        {
+          "cell": 5,
+          "bbox_local_xyxy": [
+            89,
+            75,
+            308,
+            387
+          ],
+          "insets_ltrb": [
+            89,
+            75,
+            109,
+            30
+          ]
+        },
+        {
+          "cell": 6,
+          "bbox_local_xyxy": [
+            79,
+            76,
+            297,
+            387
+          ],
+          "insets_ltrb": [
+            79,
+            76,
+            120,
+            30
+          ]
+        },
+        {
+          "cell": 7,
+          "bbox_local_xyxy": [
+            59,
+            60,
+            381,
+            339
+          ],
+          "insets_ltrb": [
+            59,
+            60,
+            36,
+            78
+          ]
+        },
+        {
+          "cell": 8,
+          "bbox_local_xyxy": [
+            95,
+            34,
+            295,
+            335
+          ],
+          "insets_ltrb": [
+            95,
+            34,
+            122,
+            82
+          ]
+        },
+        {
+          "cell": 9,
+          "bbox_local_xyxy": [
+            9,
+            50,
+            369,
+            332
+          ],
+          "insets_ltrb": [
+            9,
+            50,
+            48,
+            85
+          ]
+        }
+      ],
+      "same_feet_baseline_verified": false
+    },
+    {
+      "file": "caravan-seated-01.png",
+      "type": "sprite_sheet",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1752151,
+      "sha256": "3b9384a926a7ae2fbc464023a84356fe71fe4a13ce7f9a0f2cd7d1c90f25aea8",
+      "original_bytes_preserved": true,
+      "mode": "RGB",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 6106,
+        "max_channel": 2,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 159
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_threshold_16": [
+        {
+          "cell": 1,
+          "bbox_local_xyxy": [
+            84,
+            65,
+            412,
+            404
+          ],
+          "insets_ltrb": [
+            84,
+            65,
+            5,
+            13
+          ]
+        },
+        {
+          "cell": 2,
+          "bbox_local_xyxy": [
+            52,
+            70,
+            380,
+            405
+          ],
+          "insets_ltrb": [
+            52,
+            70,
+            37,
+            12
+          ]
+        },
+        {
+          "cell": 3,
+          "bbox_local_xyxy": [
+            5,
+            77,
+            321,
+            406
+          ],
+          "insets_ltrb": [
+            5,
+            77,
+            96,
+            11
+          ]
+        },
+        {
+          "cell": 4,
+          "bbox_local_xyxy": [
+            85,
+            41,
+            404,
+            381
+          ],
+          "insets_ltrb": [
+            85,
+            41,
+            13,
+            36
+          ]
+        },
+        {
+          "cell": 5,
+          "bbox_local_xyxy": [
+            37,
+            23,
+            378,
+            381
+          ],
+          "insets_ltrb": [
+            37,
+            23,
+            39,
+            36
+          ]
+        },
+        {
+          "cell": 6,
+          "bbox_local_xyxy": [
+            13,
+            34,
+            352,
+            417
+          ],
+          "insets_ltrb": [
+            13,
+            34,
+            65,
+            0
+          ]
+        },
+        {
+          "cell": 7,
+          "bbox_local_xyxy": [
+            74,
+            29,
+            408,
+            313
+          ],
+          "insets_ltrb": [
+            74,
+            29,
+            9,
+            104
+          ]
+        },
+        {
+          "cell": 8,
+          "bbox_local_xyxy": [
+            48,
+            196,
+            378,
+            313
+          ],
+          "insets_ltrb": [
+            48,
+            196,
+            39,
+            104
+          ]
+        },
+        {
+          "cell": 9,
+          "bbox_local_xyxy": [
+            18,
+            0,
+            347,
+            350
+          ],
+          "insets_ltrb": [
+            18,
+            0,
+            70,
+            67
+          ]
+        }
+      ],
+      "same_feet_baseline_verified": false
+    },
+    {
+      "file": "reunion-props-01.png",
+      "type": "sprite_sheet",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1469349,
+      "sha256": "7e7d1535f468de3c68b74aa5b6dd8d6214998ce24a767afd10e08206797e707f",
+      "original_bytes_preserved": true,
+      "mode": "RGB",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 6152,
+        "max_channel": 1,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 0,
+        "x836": 0,
+        "y418": 0,
+        "y836": 61
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_threshold_16": [
+        {
+          "cell": 1,
+          "bbox_local_xyxy": [
+            52,
+            86,
+            369,
+            389
+          ],
+          "insets_ltrb": [
+            52,
+            86,
+            48,
+            28
+          ]
+        },
+        {
+          "cell": 2,
+          "bbox_local_xyxy": [
+            45,
+            32,
+            390,
+            400
+          ],
+          "insets_ltrb": [
+            45,
+            32,
+            27,
+            17
+          ]
+        },
+        {
+          "cell": 3,
+          "bbox_local_xyxy": [
+            86,
+            32,
+            357,
+            393
+          ],
+          "insets_ltrb": [
+            86,
+            32,
+            60,
+            24
+          ]
+        },
+        {
+          "cell": 4,
+          "bbox_local_xyxy": [
+            29,
+            34,
+            406,
+            350
+          ],
+          "insets_ltrb": [
+            29,
+            34,
+            11,
+            67
+          ]
+        },
+        {
+          "cell": 5,
+          "bbox_local_xyxy": [
+            53,
+            75,
+            394,
+            417
+          ],
+          "insets_ltrb": [
+            53,
+            75,
+            23,
+            0
+          ]
+        },
+        {
+          "cell": 6,
+          "bbox_local_xyxy": [
+            42,
+            46,
+            373,
+            417
+          ],
+          "insets_ltrb": [
+            42,
+            46,
+            44,
+            0
+          ]
+        },
+        {
+          "cell": 7,
+          "bbox_local_xyxy": [
+            57,
+            11,
+            386,
+            371
+          ],
+          "insets_ltrb": [
+            57,
+            11,
+            31,
+            46
+          ]
+        },
+        {
+          "cell": 8,
+          "bbox_local_xyxy": [
+            98,
+            0,
+            315,
+            377
+          ],
+          "insets_ltrb": [
+            98,
+            0,
+            102,
+            40
+          ]
+        },
+        {
+          "cell": 9,
+          "bbox_local_xyxy": [
+            32,
+            0,
+            349,
+            377
+          ],
+          "insets_ltrb": [
+            32,
+            0,
+            68,
+            40
+          ]
+        }
+      ],
+      "same_feet_baseline_verified": false,
+      "table_state_mask_iou": 0.7391
+    },
+    {
+      "file": "player-moves-02.png",
+      "type": "sprite_sheet",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1255981,
+      "sha256": "b63507b0caf20c38e7340930e72e4ad320525bb23d25c4ee51ca61d3f29fd7cc",
+      "original_bytes_preserved": true,
+      "mode": "RGB",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 7169,
+        "max_channel": 1,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 126,
+        "x836": 0,
+        "y418": 0,
+        "y836": 16
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_threshold_16": [
+        {
+          "cell": 1,
+          "bbox_local_xyxy": [
+            60,
+            109,
+            396,
+            388
+          ],
+          "insets_ltrb": [
+            60,
+            109,
+            21,
+            29
+          ]
+        },
+        {
+          "cell": 2,
+          "bbox_local_xyxy": [
+            82,
+            105,
+            352,
+            388
+          ],
+          "insets_ltrb": [
+            82,
+            105,
+            65,
+            29
+          ]
+        },
+        {
+          "cell": 3,
+          "bbox_local_xyxy": [
+            55,
+            105,
+            376,
+            388
+          ],
+          "insets_ltrb": [
+            55,
+            105,
+            41,
+            29
+          ]
+        },
+        {
+          "cell": 4,
+          "bbox_local_xyxy": [
+            61,
+            54,
+            414,
+            358
+          ],
+          "insets_ltrb": [
+            61,
+            54,
+            3,
+            59
+          ]
+        },
+        {
+          "cell": 5,
+          "bbox_local_xyxy": [
+            40,
+            39,
+            394,
+            358
+          ],
+          "insets_ltrb": [
+            40,
+            39,
+            23,
+            59
+          ]
+        },
+        {
+          "cell": 6,
+          "bbox_local_xyxy": [
+            23,
+            44,
+            357,
+            417
+          ],
+          "insets_ltrb": [
+            23,
+            44,
+            60,
+            0
+          ]
+        },
+        {
+          "cell": 7,
+          "bbox_local_xyxy": [
+            50,
+            51,
+            417,
+            338
+          ],
+          "insets_ltrb": [
+            50,
+            51,
+            0,
+            79
+          ]
+        },
+        {
+          "cell": 8,
+          "bbox_local_xyxy": [
+            0,
+            51,
+            339,
+            338
+          ],
+          "insets_ltrb": [
+            0,
+            51,
+            78,
+            79
+          ]
+        },
+        {
+          "cell": 9,
+          "bbox_local_xyxy": [
+            99,
+            0,
+            303,
+            341
+          ],
+          "insets_ltrb": [
+            99,
+            0,
+            114,
+            76
+          ]
+        }
+      ],
+      "same_feet_baseline_verified": false
+    },
+    {
+      "file": "story-figures-01.png",
+      "type": "sprite_sheet",
+      "actual_size": [
+        1254,
+        1254
+      ],
+      "bytes": 1790940,
+      "sha256": "46be671fee4baf29b51e48507d07b59fba23c6fcbe958bc3ad0a1778b63ad69d",
+      "original_bytes_preserved": true,
+      "mode": "RGB",
+      "size_accepted": true,
+      "background_outer_border": {
+        "sample_pixels": 39872,
+        "nonzero_pixels": 7665,
+        "max_channel": 2,
+        "all_pure_black": false
+      },
+      "bright_pixels_at_nominal_cuts": {
+        "x418": 13,
+        "x836": 4,
+        "y418": 0,
+        "y836": 35
+      },
+      "cut_boundary_review_required": true,
+      "cell_bounds_threshold_16": [
+        {
+          "cell": 1,
+          "bbox_local_xyxy": [
+            52,
+            30,
+            400,
+            407
+          ],
+          "insets_ltrb": [
+            52,
+            30,
+            17,
+            10
+          ]
+        },
+        {
+          "cell": 2,
+          "bbox_local_xyxy": [
+            38,
+            101,
+            386,
+            407
+          ],
+          "insets_ltrb": [
+            38,
+            101,
+            31,
+            10
+          ]
+        },
+        {
+          "cell": 3,
+          "bbox_local_xyxy": [
+            36,
+            88,
+            371,
+            402
+          ],
+          "insets_ltrb": [
+            36,
+            88,
+            46,
+            15
+          ]
+        },
+        {
+          "cell": 4,
+          "bbox_local_xyxy": [
+            59,
+            6,
+            361,
+            417
+          ],
+          "insets_ltrb": [
+            59,
+            6,
+            56,
+            0
+          ]
+        },
+        {
+          "cell": 5,
+          "bbox_local_xyxy": [
+            48,
+            101,
+            372,
+            352
+          ],
+          "insets_ltrb": [
+            48,
+            101,
+            45,
+            65
+          ]
+        },
+        {
+          "cell": 6,
+          "bbox_local_xyxy": [
+            72,
+            5,
+            350,
+            393
+          ],
+          "insets_ltrb": [
+            72,
+            5,
+            67,
+            24
+          ]
+        },
+        {
+          "cell": 7,
+          "bbox_local_xyxy": [
+            74,
+            0,
+            417,
+            376
+          ],
+          "insets_ltrb": [
+            74,
+            0,
+            0,
+            41
+          ]
+        },
+        {
+          "cell": 8,
+          "bbox_local_xyxy": [
+            0,
+            0,
+            417,
+            368
+          ],
+          "insets_ltrb": [
+            0,
+            0,
+            0,
+            49
+          ]
+        },
+        {
+          "cell": 9,
+          "bbox_local_xyxy": [
+            0,
+            21,
+            313,
+            343
+          ],
+          "insets_ltrb": [
+            0,
+            21,
+            104,
+            74
+          ]
+        }
+      ],
+      "same_feet_baseline_verified": false
+    },
+    {
+      "file": "cg-memory-origin.png",
+      "type": "story_illustration",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "bytes": 3662866,
+      "sha256": "0a91fab11193514256b4ebc37108c218e08bfee128d8d9c2b9d3f23576a3c9f5",
+      "original_bytes_preserved": true,
+      "mode": "RGB",
+      "size_accepted": true,
+      "dialogue_area_nominal_start_y": 627,
+      "dialogue_area_in_game_verified": false
+    },
+    {
+      "file": "cg-memory-wick.png",
+      "type": "story_illustration",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "bytes": 2791964,
+      "sha256": "81c86ef09da00364d5f4237f2046643a2ce44ebb3af2641499a866645fa3ff37",
+      "original_bytes_preserved": true,
+      "mode": "RGB",
+      "size_accepted": true,
+      "dialogue_area_nominal_start_y": 627,
+      "dialogue_area_in_game_verified": false
+    },
+    {
+      "file": "cg-memory-mirror.png",
+      "type": "story_illustration",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "bytes": 2715379,
+      "sha256": "1870d6132e2e966ddf5e727dce0bc36be66098c54d0c15ee884fa26f93ddbb7c",
+      "original_bytes_preserved": true,
+      "mode": "RGB",
+      "size_accepted": true,
+      "dialogue_area_nominal_start_y": 627,
+      "dialogue_area_in_game_verified": false
+    },
+    {
+      "file": "cg-memory-town.png",
+      "type": "story_illustration",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "bytes": 3221752,
+      "sha256": "6f1889ea5a5bc2ef4a79c25ee014c87d580b70289d1d2e5fc5e6e31958185ccf",
+      "original_bytes_preserved": true,
+      "mode": "RGB",
+      "size_accepted": true,
+      "dialogue_area_nominal_start_y": 627,
+      "dialogue_area_in_game_verified": false
+    },
+    {
+      "file": "cg-kite-read.png",
+      "type": "story_illustration",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "bytes": 2394321,
+      "sha256": "28858e16d35577f7a63c3a187750ca238a4eccf37f3373d98650ea2e1bd5607b",
+      "original_bytes_preserved": true,
+      "mode": "RGB",
+      "size_accepted": true,
+      "dialogue_area_nominal_start_y": 627,
+      "dialogue_area_in_game_verified": false
+    },
+    {
+      "file": "cg-kite-burn.png",
+      "type": "story_illustration",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "bytes": 2477402,
+      "sha256": "b0b27e58b42563200a8aa07258b61ad4a3251a18c0f60bef42a2d21807b8f89f",
+      "original_bytes_preserved": true,
+      "mode": "RGB",
+      "size_accepted": true,
+      "dialogue_area_nominal_start_y": 627,
+      "dialogue_area_in_game_verified": false
+    },
+    {
+      "file": "cg-dinner-set.png",
+      "type": "story_illustration",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "bytes": 3275604,
+      "sha256": "37b778a899108f46a32010d129e3c637c7be44ee255ce5bd93e18d3d742a0c9c",
+      "original_bytes_preserved": true,
+      "mode": "RGB",
+      "size_accepted": true,
+      "dialogue_area_nominal_start_y": 627,
+      "dialogue_area_in_game_verified": false
+    },
+    {
+      "file": "cg-sisters.png",
+      "type": "story_illustration",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "bytes": 3012449,
+      "sha256": "5818cd04434a6cb3ae22cd70bdcdd5e412e534f29f89eeb6169e7e2a8f87d1cc",
+      "original_bytes_preserved": true,
+      "mode": "RGB",
+      "size_accepted": true,
+      "dialogue_area_nominal_start_y": 627,
+      "dialogue_area_in_game_verified": false
+    },
+    {
+      "file": "cg-impostor.png",
+      "type": "story_illustration",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "bytes": 2860578,
+      "sha256": "b4c846cba98af273b103d22c9c111c7120be433ad04b364bc559b1c9fcea837a",
+      "original_bytes_preserved": true,
+      "mode": "RGB",
+      "size_accepted": true,
+      "dialogue_area_nominal_start_y": 627,
+      "dialogue_area_in_game_verified": false
+    },
+    {
+      "file": "cg-dinner-empty.png",
+      "type": "story_illustration",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "bytes": 3215216,
+      "sha256": "a9296d3894f433615ea44fc37f9fcc39a8c5656eeebc68f64ce9cfac6b1ac34d",
+      "original_bytes_preserved": true,
+      "mode": "RGB",
+      "size_accepted": true,
+      "dialogue_area_nominal_start_y": 627,
+      "dialogue_area_in_game_verified": false
+    }
+  ],
+  "validation_scope": "PNG decode, dimensions, original-byte equality, SHA-256, background and cut-line sampling; manual visual review. No in-game animation/dialogue UI verification.",
+  "date": "2026-10-29",
+  "delivery_status": "generated-originals-with-disclosed-deviations",
+  "sprite_sheet_count": 5,
+  "story_illustration_count": 10,
+  "generator_revision_count": 6,
+  "revised_files": [
+    "wick-poses-01.png",
+    "caravan-seated-01.png",
+    "story-figures-01.png",
+    "cg-dinner-set.png",
+    "cg-kite-read.png",
+    "cg-memory-origin.png"
+  ],
+  "per_file_visual_notes": {
+    "wick-poses-01.png": [
+      "第4格已改为头顶火焰点灯，第6、8格头顶烛芯熄灭；动作帧脚底基线未做像素级对齐认证。"
+    ],
+    "caravan-seated-01.png": [
+      "角色顺序已修正，六名家人均为坐姿；第6格食物偏圆形包子/饺子造型，未严格限定饺子褶形。"
+    ],
+    "reunion-props-01.png": [
+      "前两格长桌额外带木凳；空桌/满桌未做像素级几何对齐。"
+    ],
+    "player-moves-02.png": [
+      "武器为小叶刃；部分刀刃有暖色亮边，严格光线仅限物体内部的要求仍需检查。"
+    ],
+    "story-figures-01.png": [
+      "第8格两人均已改成年轻全身像，但右侧妹妹仍带盘发结构，与第7格披发不完全一致。",
+      "第2格为低蹲/下沉姿态，单膝跪姿不够明确。"
+    ],
+    "cg-memory-origin.png": [
+      "人物、针尖与最后一针在上方；绣框下缘及支撑手的一小部分仍进入下方三分之一，关键针线交互不受影响。"
+    ],
+    "cg-memory-wick.png": [
+      "烛芯童、下垂线与远处渐熄灯列位于上方；下方为水面。"
+    ],
+    "cg-memory-mirror.png": [
+      "角色与独立影子在上方；水面含普通横向纹理，未出现明显环形脚步涟漪。"
+    ],
+    "cg-memory-town.png": [
+      "递披风的双手、披风和将军位于上方；右侧额外露出收取者兜帽与部分躯干。"
+    ],
+    "cg-kite-read.png": [
+      "已将手中的封口信封改为展开信纸；不可读短线为信件笔迹。"
+    ],
+    "cg-kite-burn.png": [
+      "与读信分支保留相近悬崖构图，但不是逐像素一致背景。"
+    ],
+    "cg-dinner-set.png": [
+      "六名家人与空座碗筷均可见；空座已缩小并上移，接近下方对白区上缘。"
+    ],
+    "cg-dinner-empty.png": [
+      "空座碗筷已移除并覆盖薄雪；相较摆碗分支，桌面一小盘菜也发生变化，因此不是仅空座区域不同的像素级变体。"
+    ],
+    "cg-sisters.png": [
+      "两名年轻姐妹及世界绣布位于上方，底部为安静木地板；绣架下沿接近对白区。"
+    ],
+    "cg-impostor.png": [
+      "纸人脸与裂壶位于上方；落灰最下端少量进入对白区，脸部揭面仍可完整看见。"
+    ]
+  },
+  "known_limitations": [
+    "5 张黑底精灵表外缘 8px 采样均含 RGB 通道值为 1 或 2 的近黑像素，并非全部为 #000000。",
+    "4 张图集在名义切格线上检测到最大 RGB 通道值 >16 的像素；可能包含主体，不应全部当散点删除。",
+    "烛芯童和橡果童各帧脚底线、人物体型、双状态道具未做像素级对齐认证。",
+    "约 6-7 实像素/美术像素的严格统一栅格未认证；部分刺绣纹理更细。",
+    "剧情关键内容主要在上方，但个别绣框、支撑手、衣摆、灰烬进入下方三分之一；未在真实游戏对白 UI 下验证。",
+    "分支插画不是背景及所有物件逐像素一致的差分图。",
+    "所有交付 PNG 保留选定生成器原图，未使用脚本裁切、缩放、抠图、调色或背景校正。"
+  ],
+  "distribution": {
+    "repository": "0xuezhang985/folklore-sprite-grids",
+    "visibility_required": "public",
+    "source_prompts_published": false
+  }
+}
