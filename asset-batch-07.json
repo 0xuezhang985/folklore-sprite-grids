@@ -1,0 +1,2279 @@
+{
+  "batch": "07",
+  "title": "绣灵志：首领与商队动画原图",
+  "date_local": "2026-10-29",
+  "timezone": "Asia/Shanghai",
+  "generation_mode": "built-in image_gen; initial generation and targeted AI revisions",
+  "asset_count": 13,
+  "frame_slots": 117,
+  "delivery_status": "originals_delivered_with_known_spec_deviations",
+  "animation_ready": false,
+  "strict_registration": "failed visual overlap review; no recentering performed",
+  "background": "near black, not exact #000000; outer 8 px sampled maximum channels are 1..4",
+  "sheets_with_foreground_at_nominal_cut_lines": 12,
+  "pixel_pitch": "6-7 real pixels per art pixel requested, not quantitatively certified",
+  "reference_comparison": "50% browser overlays at identical display scale; 17 character/facing checks",
+  "cycle_check": "idle/frame pairs and last-first overlays inspected; position drift remains",
+  "limits": [
+    "No script recentering, rescaling, palette normalization, cropping, or alpha extraction was performed.",
+    "Not ready for unattended fixed-grid animation import; runtime has not been integrated or tested.",
+    "Nominal cutline samples use max RGB > 16; counts include effects and do not prove complete character containment.",
+    "Foreground bounding boxes and centroids are not anatomical foot or torso anchors.",
+    "No watermark or text was observed visually; there was no automated OCR certification."
+  ],
+  "browser_preview": {
+    "browser": "headless Edge",
+    "cards": 17,
+    "loaded_image_urls": 22,
+    "animation_ticks_checked": 8,
+    "page_errors": [],
+    "source_images_modified": false,
+    "note": "Rendering check only; visual registration findings are recorded separately."
+  },
+  "assets": [
+    {
+      "file": "wick-walk-01.png",
+      "title": "烛芯童：侧面与正面步行",
+      "frames": [
+        "侧面左脚触地",
+        "侧面经过位",
+        "侧面右脚触地",
+        "侧面经过位",
+        "正面左脚触地",
+        "正面经过位",
+        "正面右脚触地",
+        "正面经过位",
+        "正面眨眼"
+      ],
+      "notes": [
+        "跨行的步行循环存在头部和脚底位置漂移；未通过无抖动配准。",
+        "本表四条精确切线没有阈值以上像素，但不代表已满足统一留白与动画基准。"
+      ],
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "bytes": 1133550,
+      "sha256": "4347bf7b716d84daf662d5a2e72e814987fd43cd229da8667c38f2dedac8b488",
+      "git_blob_sha1": "321bd27c97f7f46d264021e36adf974849e0c9bc",
+      "is_original_generator_output": true,
+      "postprocessed": false,
+      "animation_ready": false,
+      "diagnostics": {
+        "file": "wick-walk-01.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "outer_black_max_channel": 1,
+        "outer_black_nonzero_pixels": 5208,
+        "cut_pixels": {
+          "x418": 0,
+          "x836": 0,
+          "y418": 0,
+          "y836": 0
+        },
+        "cells": [
+          {
+            "cell": 1,
+            "bbox": [
+              106,
+              52,
+              319,
+              401
+            ],
+            "local_bottom_y": 401,
+            "foreground_center": [
+              226.84,
+              246.42
+            ]
+          },
+          {
+            "cell": 2,
+            "bbox": [
+              106,
+              49,
+              291,
+              401
+            ],
+            "local_bottom_y": 401,
+            "foreground_center": [
+              208.8,
+              233.88
+            ]
+          },
+          {
+            "cell": 3,
+            "bbox": [
+              82,
+              58,
+              301,
+              401
+            ],
+            "local_bottom_y": 401,
+            "foreground_center": [
+              199.84,
+              250.79
+            ]
+          },
+          {
+            "cell": 4,
+            "bbox": [
+              109,
+              51,
+              318,
+              381
+            ],
+            "local_bottom_y": 381,
+            "foreground_center": [
+              230.07,
+              227.67
+            ]
+          },
+          {
+            "cell": 5,
+            "bbox": [
+              89,
+              44,
+              306,
+              381
+            ],
+            "local_bottom_y": 381,
+            "foreground_center": [
+              205.49,
+              234.58
+            ]
+          },
+          {
+            "cell": 6,
+            "bbox": [
+              91,
+              46,
+              298,
+              381
+            ],
+            "local_bottom_y": 381,
+            "foreground_center": [
+              199.54,
+              233.38
+            ]
+          },
+          {
+            "cell": 7,
+            "bbox": [
+              108,
+              20,
+              337,
+              357
+            ],
+            "local_bottom_y": 357,
+            "foreground_center": [
+              229.52,
+              202.96
+            ]
+          },
+          {
+            "cell": 8,
+            "bbox": [
+              96,
+              17,
+              306,
+              356
+            ],
+            "local_bottom_y": 356,
+            "foreground_center": [
+              209.88,
+              203.96
+            ]
+          },
+          {
+            "cell": 9,
+            "bbox": [
+              87,
+              20,
+              301,
+              357
+            ],
+            "local_bottom_y": 357,
+            "foreground_center": [
+              199.12,
+              211.26
+            ]
+          }
+        ],
+        "note": "Foreground bounds include moving effects; bottom is not a certified anatomical foot anchor."
+      }
+    },
+    {
+      "file": "wick-walk-02.png",
+      "title": "烛芯童：背面步行与互动",
+      "frames": [
+        "背面左脚触地",
+        "背面经过位",
+        "背面右脚触地",
+        "背面经过位",
+        "正面对话闭口",
+        "正面对话张口",
+        "正面吸气",
+        "欢呼跳起",
+        "向右指路"
+      ],
+      "notes": [
+        "初稿多画一人，已重新生成并确认九格。",
+        "背面步行中部分经过位与触地位区分不足；动作幅度与规定的一像素变化未通过验证。",
+        "跨行位置偏移，火焰进入切格交界。"
+      ],
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "bytes": 1165646,
+      "sha256": "4af823e9900e775dff04d1fe4c4e386d52342d532fbe15cce8953c396782f308",
+      "git_blob_sha1": "abfa331683681d24618173467588815d99b5002f",
+      "is_original_generator_output": true,
+      "postprocessed": false,
+      "animation_ready": false,
+      "diagnostics": {
+        "file": "wick-walk-02.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "outer_black_max_channel": 1,
+        "outer_black_nonzero_pixels": 5128,
+        "cut_pixels": {
+          "x418": 0,
+          "x836": 0,
+          "y418": 0,
+          "y836": 58
+        },
+        "cells": [
+          {
+            "cell": 1,
+            "bbox": [
+              98,
+              57,
+              319,
+              396
+            ],
+            "local_bottom_y": 396,
+            "foreground_center": [
+              222.53,
+              242.73
+            ]
+          },
+          {
+            "cell": 2,
+            "bbox": [
+              77,
+              51,
+              294,
+              396
+            ],
+            "local_bottom_y": 396,
+            "foreground_center": [
+              199.34,
+              238.28
+            ]
+          },
+          {
+            "cell": 3,
+            "bbox": [
+              60,
+              57,
+              282,
+              396
+            ],
+            "local_bottom_y": 396,
+            "foreground_center": [
+              188.47,
+              242.91
+            ]
+          },
+          {
+            "cell": 4,
+            "bbox": [
+              106,
+              31,
+              319,
+              417
+            ],
+            "local_bottom_y": 417,
+            "foreground_center": [
+              225.72,
+              208.18
+            ]
+          },
+          {
+            "cell": 5,
+            "bbox": [
+              88,
+              23,
+              307,
+              417
+            ],
+            "local_bottom_y": 417,
+            "foreground_center": [
+              205.39,
+              215.23
+            ]
+          },
+          {
+            "cell": 6,
+            "bbox": [
+              67,
+              26,
+              294,
+              361
+            ],
+            "local_bottom_y": 361,
+            "foreground_center": [
+              187.66,
+              212.75
+            ]
+          },
+          {
+            "cell": 7,
+            "bbox": [
+              103,
+              0,
+              331,
+              332
+            ],
+            "local_bottom_y": 332,
+            "foreground_center": [
+              226.71,
+              182.23
+            ]
+          },
+          {
+            "cell": 8,
+            "bbox": [
+              81,
+              0,
+              320,
+              313
+            ],
+            "local_bottom_y": 313,
+            "foreground_center": [
+              207.55,
+              155.88
+            ]
+          },
+          {
+            "cell": 9,
+            "bbox": [
+              47,
+              1,
+              314,
+              332
+            ],
+            "local_bottom_y": 332,
+            "foreground_center": [
+              181.84,
+              180.2
+            ]
+          }
+        ],
+        "note": "Foreground bounds include moving effects; bottom is not a certified anatomical foot anchor."
+      }
+    },
+    {
+      "file": "boss-nian-02.png",
+      "title": "年兽：待机、潜行与激怒",
+      "frames": [
+        "呼气待机",
+        "吸气待机",
+        "潜行左脚接触",
+        "潜行经过位",
+        "潜行右脚接触",
+        "潜行经过位",
+        "受击",
+        "激怒待机一",
+        "激怒待机二"
+      ],
+      "notes": [
+        "主体与旧表叠合不完全，跨行潜行存在位置变化；未验证四足交替与首尾无缝。",
+        "鬃毛、雪花和地面碎屑越过部分切格交界。"
+      ],
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "bytes": 2402612,
+      "sha256": "6a9d6eddf55088ef447fdc6b1507065a389510a04cc27b0e33e6c11c110e2885",
+      "git_blob_sha1": "0cb0b5d2c412ee11d4a661ea622bd7fef5f93653",
+      "is_original_generator_output": true,
+      "postprocessed": false,
+      "animation_ready": false,
+      "diagnostics": {
+        "file": "boss-nian-02.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "outer_black_max_channel": 3,
+        "outer_black_nonzero_pixels": 7596,
+        "cut_pixels": {
+          "x418": 0,
+          "x836": 10,
+          "y418": 0,
+          "y836": 437
+        },
+        "cells": [
+          {
+            "cell": 1,
+            "bbox": [
+              46,
+              60,
+              409,
+              385
+            ],
+            "local_bottom_y": 385,
+            "foreground_center": [
+              223.3,
+              222.11
+            ]
+          },
+          {
+            "cell": 2,
+            "bbox": [
+              35,
+              59,
+              385,
+              386
+            ],
+            "local_bottom_y": 386,
+            "foreground_center": [
+              210.22,
+              220.88
+            ]
+          },
+          {
+            "cell": 3,
+            "bbox": [
+              29,
+              60,
+              383,
+              397
+            ],
+            "local_bottom_y": 397,
+            "foreground_center": [
+              200.05,
+              231.71
+            ]
+          },
+          {
+            "cell": 4,
+            "bbox": [
+              33,
+              25,
+              406,
+              417
+            ],
+            "local_bottom_y": 417,
+            "foreground_center": [
+              214.31,
+              197.66
+            ]
+          },
+          {
+            "cell": 5,
+            "bbox": [
+              30,
+              25,
+              385,
+              417
+            ],
+            "local_bottom_y": 417,
+            "foreground_center": [
+              211.68,
+              196.91
+            ]
+          },
+          {
+            "cell": 6,
+            "bbox": [
+              18,
+              25,
+              383,
+              417
+            ],
+            "local_bottom_y": 417,
+            "foreground_center": [
+              202.2,
+              206.71
+            ]
+          },
+          {
+            "cell": 7,
+            "bbox": [
+              35,
+              0,
+              405,
+              353
+            ],
+            "local_bottom_y": 353,
+            "foreground_center": [
+              232.71,
+              168.52
+            ]
+          },
+          {
+            "cell": 8,
+            "bbox": [
+              22,
+              0,
+              382,
+              352
+            ],
+            "local_bottom_y": 352,
+            "foreground_center": [
+              203.24,
+              166.86
+            ]
+          },
+          {
+            "cell": 9,
+            "bbox": [
+              0,
+              0,
+              389,
+              351
+            ],
+            "local_bottom_y": 351,
+            "foreground_center": [
+              195.54,
+              165.52
+            ]
+          }
+        ],
+        "note": "Foreground bounds include moving effects; bottom is not a certified anatomical foot anchor."
+      }
+    },
+    {
+      "file": "boss-mirror-02.png",
+      "title": "镜童：左向奔跑与下潜",
+      "frames": [
+        "待机呼气",
+        "待机吸气",
+        "左向跑接触一",
+        "左向跑经过位一",
+        "左向跑接触二",
+        "左向跑经过位二",
+        "受击",
+        "半身入镜",
+        "完全下潜末段"
+      ],
+      "notes": [
+        "已修订第九格，移除水面上的整面盾牌；刀尖在最终图中辨识度不足。",
+        "所有角色朝左；存在待机横向漂移和跨行奔跑的脚底线变化。",
+        "刀尖、涟漪或碎片触及部分纵向切线。"
+      ],
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "bytes": 1563905,
+      "sha256": "9d351e1e6fba9012a1f83684ddcfd47959418e5acac1d8a16d57028499a74824",
+      "git_blob_sha1": "a73876c13347d9ead320a85dd51a7277895f2d0e",
+      "is_original_generator_output": true,
+      "postprocessed": false,
+      "animation_ready": false,
+      "diagnostics": {
+        "file": "boss-mirror-02.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "outer_black_max_channel": 3,
+        "outer_black_nonzero_pixels": 12821,
+        "cut_pixels": {
+          "x418": 6,
+          "x836": 18,
+          "y418": 0,
+          "y836": 0
+        },
+        "cells": [
+          {
+            "cell": 1,
+            "bbox": [
+              111,
+              83,
+              382,
+              398
+            ],
+            "local_bottom_y": 398,
+            "foreground_center": [
+              224.3,
+              257.46
+            ]
+          },
+          {
+            "cell": 2,
+            "bbox": [
+              84,
+              80,
+              349,
+              398
+            ],
+            "local_bottom_y": 398,
+            "foreground_center": [
+              192.14,
+              255.0
+            ]
+          },
+          {
+            "cell": 3,
+            "bbox": [
+              28,
+              96,
+              347,
+              396
+            ],
+            "local_bottom_y": 396,
+            "foreground_center": [
+              153.86,
+              259.1
+            ]
+          },
+          {
+            "cell": 4,
+            "bbox": [
+              77,
+              44,
+              417,
+              350
+            ],
+            "local_bottom_y": 350,
+            "foreground_center": [
+              211.8,
+              202.0
+            ]
+          },
+          {
+            "cell": 5,
+            "bbox": [
+              0,
+              57,
+              381,
+              350
+            ],
+            "local_bottom_y": 350,
+            "foreground_center": [
+              178.41,
+              214.16
+            ]
+          },
+          {
+            "cell": 6,
+            "bbox": [
+              33,
+              44,
+              358,
+              352
+            ],
+            "local_bottom_y": 352,
+            "foreground_center": [
+              162.22,
+              204.1
+            ]
+          },
+          {
+            "cell": 7,
+            "bbox": [
+              71,
+              4,
+              403,
+              308
+            ],
+            "local_bottom_y": 308,
+            "foreground_center": [
+              218.74,
+              151.1
+            ]
+          },
+          {
+            "cell": 8,
+            "bbox": [
+              30,
+              31,
+              417,
+              343
+            ],
+            "local_bottom_y": 343,
+            "foreground_center": [
+              191.45,
+              216.22
+            ]
+          },
+          {
+            "cell": 9,
+            "bbox": [
+              0,
+              181,
+              367,
+              344
+            ],
+            "local_bottom_y": 344,
+            "foreground_center": [
+              178.55,
+              282.18
+            ]
+          }
+        ],
+        "note": "Foreground bounds include moving effects; bottom is not a certified anatomical foot anchor."
+      }
+    },
+    {
+      "file": "boss-scissor-02.png",
+      "title": "剪刀将军：重步、受击与二阶段",
+      "frames": [
+        "一阶段待机一",
+        "一阶段待机二",
+        "重步接触一",
+        "重步经过位一",
+        "重步接触二",
+        "重步经过位二",
+        "受击",
+        "二阶段步行一",
+        "二阶段步行二"
+      ],
+      "notes": [
+        "保留一阶段剑盾与二阶段双刀；二阶段两帧的交替脚步不够明显。",
+        "循环跨行脚底线漂移；二阶段动作未认证为可无缝播放。"
+      ],
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "bytes": 1622490,
+      "sha256": "65d5d5262f749a6ade0b6e7b2491fe694d70d95816354dff14f69f04c38745a6",
+      "git_blob_sha1": "16e0226d24fb1d9113ef039c5dfc003735d54b9a",
+      "is_original_generator_output": true,
+      "postprocessed": false,
+      "animation_ready": false,
+      "diagnostics": {
+        "file": "boss-scissor-02.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "outer_black_max_channel": 1,
+        "outer_black_nonzero_pixels": 6238,
+        "cut_pixels": {
+          "x418": 0,
+          "x836": 0,
+          "y418": 0,
+          "y836": 22
+        },
+        "cells": [
+          {
+            "cell": 1,
+            "bbox": [
+              57,
+              71,
+              364,
+              376
+            ],
+            "local_bottom_y": 376,
+            "foreground_center": [
+              226.94,
+              227.97
+            ]
+          },
+          {
+            "cell": 2,
+            "bbox": [
+              44,
+              71,
+              352,
+              376
+            ],
+            "local_bottom_y": 376,
+            "foreground_center": [
+              213.55,
+              227.55
+            ]
+          },
+          {
+            "cell": 3,
+            "bbox": [
+              28,
+              77,
+              357,
+              376
+            ],
+            "local_bottom_y": 376,
+            "foreground_center": [
+              206.64,
+              231.55
+            ]
+          },
+          {
+            "cell": 4,
+            "bbox": [
+              45,
+              33,
+              367,
+              417
+            ],
+            "local_bottom_y": 417,
+            "foreground_center": [
+              216.58,
+              184.96
+            ]
+          },
+          {
+            "cell": 5,
+            "bbox": [
+              47,
+              44,
+              358,
+              335
+            ],
+            "local_bottom_y": 335,
+            "foreground_center": [
+              212.5,
+              190.43
+            ]
+          },
+          {
+            "cell": 6,
+            "bbox": [
+              13,
+              30,
+              354,
+              339
+            ],
+            "local_bottom_y": 339,
+            "foreground_center": [
+              201.24,
+              183.63
+            ]
+          },
+          {
+            "cell": 7,
+            "bbox": [
+              33,
+              0,
+              376,
+              298
+            ],
+            "local_bottom_y": 298,
+            "foreground_center": [
+              210.19,
+              150.48
+            ]
+          },
+          {
+            "cell": 8,
+            "bbox": [
+              25,
+              2,
+              359,
+              308
+            ],
+            "local_bottom_y": 308,
+            "foreground_center": [
+              196.66,
+              164.65
+            ]
+          },
+          {
+            "cell": 9,
+            "bbox": [
+              28,
+              1,
+              357,
+              308
+            ],
+            "local_bottom_y": 308,
+            "foreground_center": [
+              196.73,
+              166.01
+            ]
+          }
+        ],
+        "note": "Foreground bounds include moving effects; bottom is not a certified anatomical foot anchor."
+      }
+    },
+    {
+      "file": "boss-unpicker-03.png",
+      "title": "拆线人一形态：滑行与战前对话",
+      "frames": [
+        "待机一",
+        "待机二",
+        "线摆向左",
+        "线摆收拢一",
+        "线摆向右",
+        "线摆收拢二",
+        "受击",
+        "站姿对话闭口",
+        "站姿对话张口"
+      ],
+      "notes": [
+        "待机和循环叠图存在主体位置重影；对话嘴部开合辨识度偏弱。",
+        "袖线和下摆邻近或越过切格交界。"
+      ],
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "bytes": 1702878,
+      "sha256": "153763a849358a261efbed1757edc861e61e37580b372421455ca4457277bc4b",
+      "git_blob_sha1": "68c73b4eec08417a500af6093e8c31563e2df965",
+      "is_original_generator_output": true,
+      "postprocessed": false,
+      "animation_ready": false,
+      "diagnostics": {
+        "file": "boss-unpicker-03.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "outer_black_max_channel": 1,
+        "outer_black_nonzero_pixels": 6016,
+        "cut_pixels": {
+          "x418": 0,
+          "x836": 16,
+          "y418": 0,
+          "y836": 71
+        },
+        "cells": [
+          {
+            "cell": 1,
+            "bbox": [
+              86,
+              43,
+              378,
+              383
+            ],
+            "local_bottom_y": 383,
+            "foreground_center": [
+              230.73,
+              243.31
+            ]
+          },
+          {
+            "cell": 2,
+            "bbox": [
+              50,
+              42,
+              417,
+              383
+            ],
+            "local_bottom_y": 383,
+            "foreground_center": [
+              201.78,
+              241.45
+            ]
+          },
+          {
+            "cell": 3,
+            "bbox": [
+              0,
+              43,
+              351,
+              394
+            ],
+            "local_bottom_y": 394,
+            "foreground_center": [
+              180.28,
+              250.54
+            ]
+          },
+          {
+            "cell": 4,
+            "bbox": [
+              49,
+              19,
+              378,
+              417
+            ],
+            "local_bottom_y": 417,
+            "foreground_center": [
+              225.32,
+              220.57
+            ]
+          },
+          {
+            "cell": 5,
+            "bbox": [
+              42,
+              19,
+              404,
+              417
+            ],
+            "local_bottom_y": 417,
+            "foreground_center": [
+              208.36,
+              223.93
+            ]
+          },
+          {
+            "cell": 6,
+            "bbox": [
+              39,
+              19,
+              376,
+              417
+            ],
+            "local_bottom_y": 417,
+            "foreground_center": [
+              191.87,
+              219.21
+            ]
+          },
+          {
+            "cell": 7,
+            "bbox": [
+              46,
+              0,
+              396,
+              344
+            ],
+            "local_bottom_y": 344,
+            "foreground_center": [
+              226.84,
+              185.46
+            ]
+          },
+          {
+            "cell": 8,
+            "bbox": [
+              33,
+              0,
+              393,
+              344
+            ],
+            "local_bottom_y": 344,
+            "foreground_center": [
+              210.3,
+              193.99
+            ]
+          },
+          {
+            "cell": 9,
+            "bbox": [
+              21,
+              0,
+              376,
+              338
+            ],
+            "local_bottom_y": 338,
+            "foreground_center": [
+              191.26,
+              191.04
+            ]
+          }
+        ],
+        "note": "Foreground bounds include moving effects; bottom is not a certified anatomical foot anchor."
+      }
+    },
+    {
+      "file": "boss-unpicker-04.png",
+      "title": "拆线人真身：漂移与战后跪谈",
+      "frames": [
+        "松线待机",
+        "收线待机",
+        "线尾向左",
+        "收拢一",
+        "线尾向右",
+        "收拢二",
+        "受击",
+        "战后跪姿闭口",
+        "战后跪姿说话"
+      ],
+      "notes": [
+        "第五格已改为线尾向右，第九格抬手已降低；战后两格保留更小跪姿。",
+        "第五格修订同时改变部分躯干朝向和位置，不能视为只改变线尾的精准编辑。",
+        "线体、面环和循环中心仍漂移，部分线尾跨格；嘴线变化辨识度不足。"
+      ],
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "bytes": 2313528,
+      "sha256": "68ed99cf906a7a123d25e7c6561c72c4d20c689649874eaf5c1a82ed387f7665",
+      "git_blob_sha1": "e5dece7ec7e9932ff4fc9630d7b84dfe2913d2ce",
+      "is_original_generator_output": true,
+      "postprocessed": false,
+      "animation_ready": false,
+      "diagnostics": {
+        "file": "boss-unpicker-04.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "outer_black_max_channel": 4,
+        "outer_black_nonzero_pixels": 6690,
+        "cut_pixels": {
+          "x418": 61,
+          "x836": 0,
+          "y418": 0,
+          "y836": 23
+        },
+        "cells": [
+          {
+            "cell": 1,
+            "bbox": [
+              30,
+              57,
+              413,
+              408
+            ],
+            "local_bottom_y": 408,
+            "foreground_center": [
+              223.88,
+              258.2
+            ]
+          },
+          {
+            "cell": 2,
+            "bbox": [
+              27,
+              57,
+              385,
+              410
+            ],
+            "local_bottom_y": 410,
+            "foreground_center": [
+              204.69,
+              251.67
+            ]
+          },
+          {
+            "cell": 3,
+            "bbox": [
+              3,
+              64,
+              399,
+              413
+            ],
+            "local_bottom_y": 413,
+            "foreground_center": [
+              201.99,
+              258.34
+            ]
+          },
+          {
+            "cell": 4,
+            "bbox": [
+              28,
+              23,
+              417,
+              417
+            ],
+            "local_bottom_y": 417,
+            "foreground_center": [
+              206.01,
+              221.85
+            ]
+          },
+          {
+            "cell": 5,
+            "bbox": [
+              0,
+              32,
+              412,
+              381
+            ],
+            "local_bottom_y": 381,
+            "foreground_center": [
+              181.48,
+              221.59
+            ]
+          },
+          {
+            "cell": 6,
+            "bbox": [
+              17,
+              27,
+              387,
+              387
+            ],
+            "local_bottom_y": 387,
+            "foreground_center": [
+              206.64,
+              228.4
+            ]
+          },
+          {
+            "cell": 7,
+            "bbox": [
+              22,
+              0,
+              417,
+              365
+            ],
+            "local_bottom_y": 365,
+            "foreground_center": [
+              231.82,
+              197.33
+            ]
+          },
+          {
+            "cell": 8,
+            "bbox": [
+              0,
+              76,
+              391,
+              369
+            ],
+            "local_bottom_y": 369,
+            "foreground_center": [
+              209.02,
+              249.96
+            ]
+          },
+          {
+            "cell": 9,
+            "bbox": [
+              6,
+              76,
+              388,
+              374
+            ],
+            "local_bottom_y": 374,
+            "foreground_center": [
+              197.74,
+              249.15
+            ]
+          }
+        ],
+        "note": "Foreground bounds include moving effects; bottom is not a certified anatomical foot anchor."
+      }
+    },
+    {
+      "file": "boss-kite-02.png",
+      "title": "万信风筝：振翅、断线与战后对话",
+      "frames": [
+        "双翅平展",
+        "双翅上扬",
+        "双翅平展",
+        "双翅下压",
+        "断线振翅上扬",
+        "断线振翅下压",
+        "受击纸裂",
+        "落地折翅闭口",
+        "落地折翅说话"
+      ],
+      "notes": [
+        "振翅、断线、受击与落地说话均有独立帧位。",
+        "翼端触及纵向切格线；振翅中心未固定，战后说话抬翅幅度大于轻微变化要求。"
+      ],
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "bytes": 1747457,
+      "sha256": "88ef4310dedc02601d8ef83255418e05e81ed8efaef79c97b52d8c70768b2bf7",
+      "git_blob_sha1": "fcdc520e69ae2516ef6e8b3747efe93bc0ea97a6",
+      "is_original_generator_output": true,
+      "postprocessed": false,
+      "animation_ready": false,
+      "diagnostics": {
+        "file": "boss-kite-02.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "outer_black_max_channel": 2,
+        "outer_black_nonzero_pixels": 7289,
+        "cut_pixels": {
+          "x418": 20,
+          "x836": 9,
+          "y418": 0,
+          "y836": 0
+        },
+        "cells": [
+          {
+            "cell": 1,
+            "bbox": [
+              16,
+              61,
+              417,
+              403
+            ],
+            "local_bottom_y": 403,
+            "foreground_center": [
+              210.25,
+              199.78
+            ]
+          },
+          {
+            "cell": 2,
+            "bbox": [
+              0,
+              35,
+              417,
+              403
+            ],
+            "local_bottom_y": 403,
+            "foreground_center": [
+              196.31,
+              181.8
+            ]
+          },
+          {
+            "cell": 3,
+            "bbox": [
+              0,
+              61,
+              399,
+              406
+            ],
+            "local_bottom_y": 406,
+            "foreground_center": [
+              184.83,
+              200.57
+            ]
+          },
+          {
+            "cell": 4,
+            "bbox": [
+              20,
+              56,
+              417,
+              393
+            ],
+            "local_bottom_y": 393,
+            "foreground_center": [
+              209.71,
+              191.62
+            ]
+          },
+          {
+            "cell": 5,
+            "bbox": [
+              0,
+              35,
+              397,
+              398
+            ],
+            "local_bottom_y": 398,
+            "foreground_center": [
+              197.87,
+              175.59
+            ]
+          },
+          {
+            "cell": 6,
+            "bbox": [
+              3,
+              60,
+              402,
+              402
+            ],
+            "local_bottom_y": 402,
+            "foreground_center": [
+              184.65,
+              198.08
+            ]
+          },
+          {
+            "cell": 7,
+            "bbox": [
+              24,
+              25,
+              392,
+              371
+            ],
+            "local_bottom_y": 371,
+            "foreground_center": [
+              199.26,
+              172.52
+            ]
+          },
+          {
+            "cell": 8,
+            "bbox": [
+              13,
+              115,
+              402,
+              363
+            ],
+            "local_bottom_y": 363,
+            "foreground_center": [
+              200.89,
+              238.12
+            ]
+          },
+          {
+            "cell": 9,
+            "bbox": [
+              1,
+              98,
+              396,
+              365
+            ],
+            "local_bottom_y": 365,
+            "foreground_center": [
+              206.52,
+              230.73
+            ]
+          }
+        ],
+        "note": "Foreground bounds include moving effects; bottom is not a certified anatomical foot anchor."
+      }
+    },
+    {
+      "file": "boss-ferryman-02.png",
+      "title": "渡者：撑船、受击与坐谈",
+      "frames": [
+        "低位待机",
+        "浮动待机",
+        "前方落篙",
+        "向后撑篙",
+        "提篙回收",
+        "向前伸篙",
+        "受击摇船",
+        "战后坐谈闭口",
+        "战后坐谈张口"
+      ],
+      "notes": [
+        "撑篙四步和战后坐直对话已生成。",
+        "船体跨行位置及局部横向位置不一致，灯笼待机摆动方向不够明确；不能直接作为原位循环。",
+        "水花和受击碎屑进入横向切格交界。"
+      ],
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "bytes": 1669919,
+      "sha256": "1683f20f53342295ce451b612db223c52b5377d10ec1bf7adedc236c07ef0390",
+      "git_blob_sha1": "0e5ed7e659772dd2bda7405cf7c075c0fcb59b6b",
+      "is_original_generator_output": true,
+      "postprocessed": false,
+      "animation_ready": false,
+      "diagnostics": {
+        "file": "boss-ferryman-02.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "outer_black_max_channel": 2,
+        "outer_black_nonzero_pixels": 6604,
+        "cut_pixels": {
+          "x418": 0,
+          "x836": 0,
+          "y418": 0,
+          "y836": 24
+        },
+        "cells": [
+          {
+            "cell": 1,
+            "bbox": [
+              64,
+              31,
+              365,
+              399
+            ],
+            "local_bottom_y": 399,
+            "foreground_center": [
+              224.24,
+              238.37
+            ]
+          },
+          {
+            "cell": 2,
+            "bbox": [
+              78,
+              31,
+              338,
+              395
+            ],
+            "local_bottom_y": 395,
+            "foreground_center": [
+              206.28,
+              237.63
+            ]
+          },
+          {
+            "cell": 3,
+            "bbox": [
+              53,
+              89,
+              342,
+              404
+            ],
+            "local_bottom_y": 404,
+            "foreground_center": [
+              193.59,
+              253.22
+            ]
+          },
+          {
+            "cell": 4,
+            "bbox": [
+              28,
+              30,
+              383,
+              417
+            ],
+            "local_bottom_y": 417,
+            "foreground_center": [
+              228.94,
+              214.51
+            ]
+          },
+          {
+            "cell": 5,
+            "bbox": [
+              69,
+              30,
+              352,
+              367
+            ],
+            "local_bottom_y": 367,
+            "foreground_center": [
+              216.27,
+              207.15
+            ]
+          },
+          {
+            "cell": 6,
+            "bbox": [
+              45,
+              75,
+              391,
+              363
+            ],
+            "local_bottom_y": 363,
+            "foreground_center": [
+              186.52,
+              229.56
+            ]
+          },
+          {
+            "cell": 7,
+            "bbox": [
+              48,
+              0,
+              378,
+              340
+            ],
+            "local_bottom_y": 340,
+            "foreground_center": [
+              227.79,
+              170.27
+            ]
+          },
+          {
+            "cell": 8,
+            "bbox": [
+              54,
+              3,
+              341,
+              337
+            ],
+            "local_bottom_y": 337,
+            "foreground_center": [
+              204.24,
+              176.21
+            ]
+          },
+          {
+            "cell": 9,
+            "bbox": [
+              30,
+              3,
+              338,
+              337
+            ],
+            "local_bottom_y": 337,
+            "foreground_center": [
+              185.91,
+              175.56
+            ]
+          }
+        ],
+        "note": "Foreground bounds include moving effects; bottom is not a certified anatomical foot anchor."
+      }
+    },
+    {
+      "file": "caravan-anim-01.png",
+      "title": "行商獾与茶婆婆",
+      "frames": [
+        "行商呼气",
+        "行商吸气",
+        "行商闭口说话",
+        "行商张口说话",
+        "茶婆呼气",
+        "茶婆吸气",
+        "茶婆闭口说话",
+        "茶婆张口说话",
+        "茶婆倾头倒茶"
+      ],
+      "notes": [
+        "茶婆保留茶壶头造型，末格从自身壶嘴倒茶。",
+        "待机对存在横向主体漂移；跨行说话变化不止嘴部与手势。",
+        "蒸汽或摆件触及切格线。"
+      ],
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "bytes": 2024152,
+      "sha256": "a24c54c699d9f7bfdaf325b964c0c7c97d4863c0adbf54232f8c66eede95ec7d",
+      "git_blob_sha1": "d74edfdab1a1d8c5b8d8c5965c353bb5b5bd3237",
+      "is_original_generator_output": true,
+      "postprocessed": false,
+      "animation_ready": false,
+      "diagnostics": {
+        "file": "caravan-anim-01.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "outer_black_max_channel": 2,
+        "outer_black_nonzero_pixels": 7404,
+        "cut_pixels": {
+          "x418": 2,
+          "x836": 0,
+          "y418": 0,
+          "y836": 37
+        },
+        "cells": [
+          {
+            "cell": 1,
+            "bbox": [
+              66,
+              44,
+              393,
+              394
+            ],
+            "local_bottom_y": 394,
+            "foreground_center": [
+              224.24,
+              221.66
+            ]
+          },
+          {
+            "cell": 2,
+            "bbox": [
+              51,
+              39,
+              375,
+              393
+            ],
+            "local_bottom_y": 393,
+            "foreground_center": [
+              207.18,
+              220.31
+            ]
+          },
+          {
+            "cell": 3,
+            "bbox": [
+              15,
+              44,
+              373,
+              393
+            ],
+            "local_bottom_y": 393,
+            "foreground_center": [
+              172.38,
+              223.67
+            ]
+          },
+          {
+            "cell": 4,
+            "bbox": [
+              44,
+              23,
+              410,
+              372
+            ],
+            "local_bottom_y": 372,
+            "foreground_center": [
+              224.79,
+              201.02
+            ]
+          },
+          {
+            "cell": 5,
+            "bbox": [
+              0,
+              24,
+              365,
+              417
+            ],
+            "local_bottom_y": 417,
+            "foreground_center": [
+              215.43,
+              224.34
+            ]
+          },
+          {
+            "cell": 6,
+            "bbox": [
+              44,
+              35,
+              352,
+              375
+            ],
+            "local_bottom_y": 375,
+            "foreground_center": [
+              191.42,
+              222.64
+            ]
+          },
+          {
+            "cell": 7,
+            "bbox": [
+              77,
+              3,
+              389,
+              347
+            ],
+            "local_bottom_y": 347,
+            "foreground_center": [
+              229.21,
+              186.73
+            ]
+          },
+          {
+            "cell": 8,
+            "bbox": [
+              54,
+              0,
+              364,
+              348
+            ],
+            "local_bottom_y": 348,
+            "foreground_center": [
+              212.3,
+              188.02
+            ]
+          },
+          {
+            "cell": 9,
+            "bbox": [
+              36,
+              16,
+              329,
+              347
+            ],
+            "local_bottom_y": 347,
+            "foreground_center": [
+              187.25,
+              191.51
+            ]
+          }
+        ],
+        "note": "Foreground bounds include moving effects; bottom is not a certified anatomical foot anchor."
+      }
+    },
+    {
+      "file": "caravan-anim-02.png",
+      "title": "补锅鼹与独眼信鸽",
+      "frames": [
+        "补锅鼹呼气",
+        "补锅鼹吸气",
+        "补锅鼹闭口说话",
+        "补锅鼹张口说话",
+        "信鸽待机一",
+        "信鸽待机二",
+        "信鸽闭喙说话",
+        "信鸽张喙说话",
+        "补锅鼹跪姿敲锅"
+      ],
+      "notes": [
+        "保留锅帽、工具带、独眼、邮袋与末格修锅动作。",
+        "旧表对照和说话对存在位置差异；嘴部之外的肢体变化偏大。",
+        "锤头、羽毛和相邻帧局部进入切格交界。"
+      ],
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "bytes": 1839254,
+      "sha256": "eb1e3596e687aced1e9a56b6439ce90b175cf9c6fc0fec7495a4ae136faad57b",
+      "git_blob_sha1": "4de3eb0cfb84fc48158c33a66825e19b732f2f63",
+      "is_original_generator_output": true,
+      "postprocessed": false,
+      "animation_ready": false,
+      "diagnostics": {
+        "file": "caravan-anim-02.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "outer_black_max_channel": 2,
+        "outer_black_nonzero_pixels": 6453,
+        "cut_pixels": {
+          "x418": 47,
+          "x836": 28,
+          "y418": 0,
+          "y836": 81
+        },
+        "cells": [
+          {
+            "cell": 1,
+            "bbox": [
+              75,
+              66,
+              398,
+              408
+            ],
+            "local_bottom_y": 408,
+            "foreground_center": [
+              227.35,
+              257.78
+            ]
+          },
+          {
+            "cell": 2,
+            "bbox": [
+              58,
+              64,
+              372,
+              408
+            ],
+            "local_bottom_y": 408,
+            "foreground_center": [
+              203.25,
+              256.45
+            ]
+          },
+          {
+            "cell": 3,
+            "bbox": [
+              33,
+              67,
+              306,
+              408
+            ],
+            "local_bottom_y": 408,
+            "foreground_center": [
+              174.59,
+              256.25
+            ]
+          },
+          {
+            "cell": 4,
+            "bbox": [
+              61,
+              32,
+              417,
+              417
+            ],
+            "local_bottom_y": 417,
+            "foreground_center": [
+              217.92,
+              220.98
+            ]
+          },
+          {
+            "cell": 5,
+            "bbox": [
+              0,
+              40,
+              357,
+              417
+            ],
+            "local_bottom_y": 417,
+            "foreground_center": [
+              211.01,
+              214.63
+            ]
+          },
+          {
+            "cell": 6,
+            "bbox": [
+              59,
+              41,
+              340,
+              382
+            ],
+            "local_bottom_y": 382,
+            "foreground_center": [
+              196.57,
+              216.85
+            ]
+          },
+          {
+            "cell": 7,
+            "bbox": [
+              76,
+              0,
+              400,
+              350
+            ],
+            "local_bottom_y": 350,
+            "foreground_center": [
+              234.07,
+              165.66
+            ]
+          },
+          {
+            "cell": 8,
+            "bbox": [
+              65,
+              0,
+              417,
+              350
+            ],
+            "local_bottom_y": 350,
+            "foreground_center": [
+              220.46,
+              163.59
+            ]
+          },
+          {
+            "cell": 9,
+            "bbox": [
+              0,
+              29,
+              367,
+              341
+            ],
+            "local_bottom_y": 341,
+            "foreground_center": [
+              173.23,
+              212.75
+            ]
+          }
+        ],
+        "note": "Foreground bounds include moving effects; bottom is not a certified anatomical foot anchor."
+      }
+    },
+    {
+      "file": "caravan-anim-03.png",
+      "title": "照镜猫与老绣娘",
+      "frames": [
+        "照镜猫待机一",
+        "照镜猫待机二",
+        "照镜猫闭口说话",
+        "照镜猫张口说话",
+        "绣娘呼气",
+        "绣娘吸气",
+        "绣娘闭口说话",
+        "绣娘张口说话",
+        "绣娘穿针"
+      ],
+      "notes": [
+        "末格为全身穿针动作；未替换成半身图。",
+        "尾巴、镜面及身体位置在待机对中同时变化；老绣娘相对旧表的位置和尺寸未严格匹配。",
+        "发髻针饰进入横向切格线。"
+      ],
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "bytes": 1837005,
+      "sha256": "566d688b584d46b561d4dab502c94d8589d3f31f8c90d4f18974b8b622a629b5",
+      "git_blob_sha1": "0730c1d8dfebb825c77eef0a3b7e246635b3f518",
+      "is_original_generator_output": true,
+      "postprocessed": false,
+      "animation_ready": false,
+      "diagnostics": {
+        "file": "caravan-anim-03.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "outer_black_max_channel": 1,
+        "outer_black_nonzero_pixels": 6956,
+        "cut_pixels": {
+          "x418": 0,
+          "x836": 0,
+          "y418": 0,
+          "y836": 36
+        },
+        "cells": [
+          {
+            "cell": 1,
+            "bbox": [
+              72,
+              35,
+              367,
+              393
+            ],
+            "local_bottom_y": 393,
+            "foreground_center": [
+              228.79,
+              215.26
+            ]
+          },
+          {
+            "cell": 2,
+            "bbox": [
+              77,
+              34,
+              351,
+              393
+            ],
+            "local_bottom_y": 393,
+            "foreground_center": [
+              204.83,
+              214.97
+            ]
+          },
+          {
+            "cell": 3,
+            "bbox": [
+              37,
+              34,
+              316,
+              393
+            ],
+            "local_bottom_y": 393,
+            "foreground_center": [
+              184.11,
+              212.34
+            ]
+          },
+          {
+            "cell": 4,
+            "bbox": [
+              75,
+              20,
+              387,
+              417
+            ],
+            "local_bottom_y": 417,
+            "foreground_center": [
+              233.22,
+              190.6
+            ]
+          },
+          {
+            "cell": 5,
+            "bbox": [
+              66,
+              18,
+              318,
+              417
+            ],
+            "local_bottom_y": 417,
+            "foreground_center": [
+              195.31,
+              224.95
+            ]
+          },
+          {
+            "cell": 6,
+            "bbox": [
+              59,
+              14,
+              316,
+              390
+            ],
+            "local_bottom_y": 390,
+            "foreground_center": [
+              184.91,
+              222.43
+            ]
+          },
+          {
+            "cell": 7,
+            "bbox": [
+              92,
+              0,
+              373,
+              379
+            ],
+            "local_bottom_y": 379,
+            "foreground_center": [
+              226.18,
+              203.47
+            ]
+          },
+          {
+            "cell": 8,
+            "bbox": [
+              69,
+              0,
+              350,
+              380
+            ],
+            "local_bottom_y": 380,
+            "foreground_center": [
+              201.68,
+              203.37
+            ]
+          },
+          {
+            "cell": 9,
+            "bbox": [
+              46,
+              6,
+              310,
+              380
+            ],
+            "local_bottom_y": 380,
+            "foreground_center": [
+              179.3,
+              211.04
+            ]
+          }
+        ],
+        "note": "Foreground bounds include moving effects; bottom is not a certified anatomical foot anchor."
+      }
+    },
+    {
+      "file": "caravan-anim-04.png",
+      "title": "灶君与商队闲暇动作",
+      "frames": [
+        "灶君呼气",
+        "灶君吸气",
+        "灶君闭口抚须",
+        "灶君张口举炉",
+        "行商大笑",
+        "信鸽啄地",
+        "照镜猫举镜",
+        "茶婆闭眼饮茶",
+        "灶君扇火"
+      ],
+      "notes": [
+        "已把错误的“老绣娘饮茶”替换为茶壶头茶婆婆饮茶。",
+        "灶君待机和说话帧仍存在位置重影，角色对旧表的尺寸与基线未严格一致。",
+        "底排部分装饰进入横向切格交界。"
+      ],
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "bytes": 1952468,
+      "sha256": "677ed3d2236cb9166d022d3807267a56d6e567110eeeeaf21b478b83ed613369",
+      "git_blob_sha1": "b7d22dc1a3c71a5e1f410267d43b4c59cf8338cd",
+      "is_original_generator_output": true,
+      "postprocessed": false,
+      "animation_ready": false,
+      "diagnostics": {
+        "file": "caravan-anim-04.png",
+        "size": [
+          1254,
+          1254
+        ],
+        "outer_black_max_channel": 3,
+        "outer_black_nonzero_pixels": 6355,
+        "cut_pixels": {
+          "x418": 0,
+          "x836": 0,
+          "y418": 0,
+          "y836": 86
+        },
+        "cells": [
+          {
+            "cell": 1,
+            "bbox": [
+              73,
+              48,
+              394,
+              403
+            ],
+            "local_bottom_y": 403,
+            "foreground_center": [
+              229.59,
+              226.24
+            ]
+          },
+          {
+            "cell": 2,
+            "bbox": [
+              48,
+              41,
+              363,
+              403
+            ],
+            "local_bottom_y": 403,
+            "foreground_center": [
+              201.63,
+              223.79
+            ]
+          },
+          {
+            "cell": 3,
+            "bbox": [
+              33,
+              51,
+              338,
+              404
+            ],
+            "local_bottom_y": 404,
+            "foreground_center": [
+              185.84,
+              234.07
+            ]
+          },
+          {
+            "cell": 4,
+            "bbox": [
+              61,
+              28,
+              396,
+              417
+            ],
+            "local_bottom_y": 417,
+            "foreground_center": [
+              220.99,
+              202.27
+            ]
+          },
+          {
+            "cell": 5,
+            "bbox": [
+              35,
+              18,
+              380,
+              369
+            ],
+            "local_bottom_y": 369,
+            "foreground_center": [
+              201.99,
+              205.09
+            ]
+          },
+          {
+            "cell": 6,
+            "bbox": [
+              75,
+              55,
+              350,
+              417
+            ],
+            "local_bottom_y": 417,
+            "foreground_center": [
+              200.29,
+              229.15
+            ]
+          },
+          {
+            "cell": 7,
+            "bbox": [
+              47,
+              0,
+              379,
+              362
+            ],
+            "local_bottom_y": 362,
+            "foreground_center": [
+              224.82,
+              175.12
+            ]
+          },
+          {
+            "cell": 8,
+            "bbox": [
+              53,
+              5,
+              346,
+              353
+            ],
+            "local_bottom_y": 353,
+            "foreground_center": [
+              200.15,
+              191.92
+            ]
+          },
+          {
+            "cell": 9,
+            "bbox": [
+              22,
+              0,
+              374,
+              361
+            ],
+            "local_bottom_y": 361,
+            "foreground_center": [
+              188.16,
+              180.43
+            ]
+          }
+        ],
+        "note": "Foreground bounds include moving effects; bottom is not a certified anatomical foot anchor."
+      }
+    }
+  ]
+}
